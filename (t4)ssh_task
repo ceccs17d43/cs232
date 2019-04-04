@@ -1,5 +1,11 @@
 Script started on Thu 28 Mar 2019 05:20:21 PM IST
-]0;cec@localhost:~[?1034h[cec@localhost ~]$ exitsftp cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo apt install sublimetext[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pftp cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo apt install sublimetext[12Psublimetext[5Pcript sftpftp cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcript sftptaskftp cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksftp cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kexitssh csd17d43@192.168.0.30[C[1P17d43@192.168.0.30
+]0;cec@localhost:~[?1034h[cec@localhost ~]$ exitsftp cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo apt install sublimetext
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pftp cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo apt install sublimetext[12Psublimetext[5Pcript sftpftp cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcript sftptaskftp cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksftp cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kexitssh csd17d43@192.168.0.30[C[1P17d43@192.168.0.30
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -13,7 +19,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Thu Mar 28 11:51:05 2019 from 192.168.0.211
+Last login: Thu Mar 28 11:51:05 2019 from 192.168.0.211
+
 $ ls
 CHNResult.pdf  examples.desktop  s4d.txt  (t5)sftptask	test
 $ cat s4d.txt
@@ -95,16 +102,24 @@ $ ls
 CHNResult.pdf  examples.desktop  s4d.txt  (t5)sftptask	test  you.txt
 $ scp cs17d43@192.169 8.0.30 ^C
 $ exit
-Connection to 192.168.0.30 closed.
-]0;cec@localhost:~[cec@localhost ~]$ sc[K[Kssh cs17d43@192.168.0.30 \[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexitsftp cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo apt install sublimetext[12Psublimetext[5Pcript sftpftp cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcript sftptaskftp cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksftp cs17d43@192.168.0.30^C
-]0;cec@localhost:~[cec@localhost ~]$ exitsftp cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs cs17d43@192.168.0.30c cs17d43@192.168.0.30o cs17d43@192.168.0.30[1P cs17d43@192.168.0.30p cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:~/s4d.txt ./
+Connection to 192.168.0.30 closed.
+
+]0;cec@localhost:~[cec@localhost ~]$ sc[K[Kssh cs17d43@192.168.0.30 \[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexitsftp cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo apt install sublimetext[12Psublimetext[5Pcript sftpftp cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcript sftptaskftp cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksftp cs17d43@192.168.0.30^C
+]0;cec@localhost:~[cec@localhost ~]$ exitsftp cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P cs17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs cs17d43@192.168.0.30c cs17d43@192.168.0.30o cs17d43@192.168.0.30[1P cs17d43@192.168.0.30p cs17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:~/s4d.txt ./
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \\  \\  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d43@192.168.0.30's password: 
-s4d.txt                                                                                      0%    0     0.0KB/s   --:-- ETAs4d.txt                                                                                    100% 2995     2.9KB/s   00:00    
+
+s4d.txt                                                                                      0%    0     0.0KB/s   --:-- ETA
+s4d.txt                                                                                    100% 2995     2.9KB/s   00:00    
 ]0;cec@localhost:~[cec@localhost ~]$ ls
 CHNResult.pdf  [0m[01;34mDocuments[0m  [01;34mMusic[0m     [01;34mPublic[0m   sshtask       [01;34mTemplates[0m        [01;34mVideos[0m
 [01;34mDesktop[0m        [01;34mDownloads[0m  [01;34mPictures[0m  s4d.txt  (t5)sftptask  [01;34muntitled folder[0m
