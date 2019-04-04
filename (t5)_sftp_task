@@ -1,7 +1,8 @@
 Script started on Thu 28 Mar 2019 04:36:10 PM IST
 ]0;cec@localhost:~[?1034h[cec@localhost ~]$ ls
 CHNResult.pdf  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  s4d.txt  sftp  [01;34mTemplates[0m  [01;34muntitled folder[0m  [01;34mVideos[0m
-[m]0;cec@localhost:~[cec@localhost ~]$ lsexitssh csd17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cftp cs17d43@192.168.0.30
+[m]0;cec@localhost:~[cec@localhost ~]$ lsexitssh csd17d43@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cftp cs17d43@192.168.0.30
 Connecting to 192.168.0.30...
 .
               |
@@ -13,7 +14,9 @@ sftp> ls
 examples.desktop    
 sftp> put HNResult[7G[Kput CHNResult.pdf
 Uploading CHNResult.pdf to /home/cs17d43/CHNResult.pdf
-CHNResult.pdf                                                                                0%    0     0.0KB/s   --:-- ETACHNResult.pdf                                                                              100%   50KB  49.7KB/s   00:00    
+
+CHNResult.pdf                                                                                0%    0     0.0KB/s   --:-- ETA
+CHNResult.pdf                                                                              100%   50KB  49.7KB/s   00:00    
 sftp> ls
 CHNResult.pdf       examples.desktop    
 sftp> lls
@@ -23,7 +26,9 @@ sftp> get CHN[K[K[K[K[K[Kls
 CHNResult.pdf       examples.desktop    test                
 sftp> get CHNResult.pdf
 Fetching /home/cs17d43/CHNResult.pdf to CHNResult.pdf
-/home/cs17d43/CHNResult.pdf                                                                  0%    0     0.0KB/s   --:-- ETA/home/cs17d43/CHNResult.pdf                                                                100%   50KB  49.7KB/s   00:00    
+
+/home/cs17d43/CHNResult.pdf                                                                  0%    0     0.0KB/s   --:-- ETA
+/home/cs17d43/CHNResult.pdf                                                                100%   50KB  49.7KB/s   00:00    
 sftp> version
 SFTP protocol version 3
 sftp> help
