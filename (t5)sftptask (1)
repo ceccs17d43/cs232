@@ -1,0 +1,67 @@
+Script started on Thu 28 Mar 2019 04:36:10 PM IST
+]0;cec@localhost:~[?1034h[cec@localhost ~]$ ls
+CHNResult.pdf  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  s4d.txt  sftp  [01;34mTemplates[0m  [01;34muntitled folder[0m  [01;34mVideos[0m
+[m]0;cec@localhost:~[cec@localhost ~]$ lsexitssh csd17d43@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cftp cs17d43@192.168.0.30
+Connecting to 192.168.0.30...
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \\  \\  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d43@192.168.0.30's password: 
+sftp> ls
+examples.desktop    
+sftp> put HNResult[7G[Kput CHNResult.pdf
+Uploading CHNResult.pdf to /home/cs17d43/CHNResult.pdf
+CHNResult.pdf                                                                                0%    0     0.0KB/s   --:-- ETACHNResult.pdf                                                                              100%   50KB  49.7KB/s   00:00    
+sftp> ls
+CHNResult.pdf       examples.desktop    
+sftp> lls
+CHNResult.pdf  Desktop	Documents  Downloads  Music  Pictures  Public  s4d.txt	sftp  Templates  untitled folder  Videos
+sftp> mkdir test
+sftp> get CHN[K[K[K[K[K[Kls
+CHNResult.pdf       examples.desktop    test                
+sftp> get CHNResult.pdf
+Fetching /home/cs17d43/CHNResult.pdf to CHNResult.pdf
+/home/cs17d43/CHNResult.pdf                                                                  0%    0     0.0KB/s   --:-- ETA/home/cs17d43/CHNResult.pdf                                                                100%   50KB  49.7KB/s   00:00    
+sftp> version
+SFTP protocol version 3
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-P] remote-path [local-path]  Download file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln oldpath newpath                 Symlink remote file
+lpwd                               Print local working directory
+ls [-1aflnrSt] [path]              Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-P] local-path [remote-path]  Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+sftp> pwd
+Remote working directory: /home/cs17d43
+sftp> exit
+]0;cec@localhost:~[cec@localhost ~]$ exit
+exit
+
+Script done on Thu 28 Mar 2019 04:40:49 PM IST
