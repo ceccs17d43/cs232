@@ -1,0 +1,106 @@
+Script started on 2019-05-06 11:48:47+05:30
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt insta[K[K[K[K[K[K[K[K[K[K apt remove --pp[Kurge vsftpd
+[sudo] password for roshin: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
+  libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5 libmicrodns0
+  libmpcdec6 libmpeg2-4 libmysofa0 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo5 libpostproc55 libprotobuf-lite10 libproxy-tools libqt5x11extras5 libresid-builder0c2a libsdl-image1.2
+  libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsndio7.0 libspatialaudio0 libssh-gcrypt-4 libssh2-1 libswresample3 libswscale5 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2
+  libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-160 libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin
+  vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  vsftpd*
+0 upgraded, 0 newly installed, 1 to remove and 362 not upgraded.
+After this operation, 338 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;51r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132435 files and directories currently installed.)
+Removing vsftpd (3.0.3-11) ...
+7[52;0f[42m[30mProgress: [  0%][49m[39m [......................................................................................................................................................................................] 87[52;0f[42m[30mProgress: [ 20%][49m[39m [####################################..................................................................................................................................................] 87[52;0f[42m[30mProgress: [ 40%][49m[39m [########################################################################..............................................................................................................] 87[52;0f[42m[30mProgress: [ 60%][49m[39m [#############################################################################################################.........................................................................] 8Processing triggers for man-db (2.8.4-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132383 files and directories currently installed.)
+Purging configuration files for vsftpd (3.0.3-11) ...
+7[52;0f[42m[30mProgress: [ 80%][49m[39m [#################################################################################################################################################.....................................] 8Processing triggers for systemd (239-7ubuntu10) ...
+
+7[0;52r8[1A[J]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt remove --purge vsftpd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kperl sum.pl[K[K[K[K[K[K[K[K[K[K[Ksudoo[K apt install vsftpd
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
+  libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5 libmicrodns0
+  libmpcdec6 libmpeg2-4 libmysofa0 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo5 libpostproc55 libprotobuf-lite10 libproxy-tools libqt5x11extras5 libresid-builder0c2a libsdl-image1.2
+  libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsndio7.0 libspatialaudio0 libssh-gcrypt-4 libssh2-1 libswresample3 libswscale5 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2
+  libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-160 libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin
+  vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 362 not upgraded.
+Need to get 0 B/116 kB of archives.
+After this operation, 338 kB of additional disk space will be used.
+Preconfiguring packages ...
+
+7[0;51r8[1ASelecting previously unselected package vsftpd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132379 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-11_amd64.deb ...
+7[52;0f[42m[30mProgress: [  0%][49m[39m [......................................................................................................................................................................................] 87[52;0f[42m[30mProgress: [ 20%][49m[39m [####################################..................................................................................................................................................] 8Unpacking vsftpd (3.0.3-11) ...
+7[52;0f[42m[30mProgress: [ 40%][49m[39m [########################################################################..............................................................................................................] 8Setting up vsftpd (3.0.3-11) ...
+7[52;0f[42m[30mProgress: [ 60%][49m[39m [#############################################################################################################.........................................................................] 8Created symlink /etc/systemd/system/multi-user.target.wants/vsftpd.service → /lib/systemd/system/vsftpd.service.
+[vsftpd.conf:1] Line references path below legacy directory /var/run/, updating /var/run/vsftpd/empty → /run/vsftpd/empty; please update the tmpfiles.d/ drop-in file accordingly.
+7[52;0f[42m[30mProgress: [ 80%][49m[39m [#################################################################################################################################################.....................................] 8Processing triggers for systemd (239-7ubuntu10) ...
+Processing triggers for man-db (2.8.4-2) ...
+
+7[0;52r8[1A[J]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:roshin): 
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rw-r--r--    1 1000     1000         5761 May 06 10:45 (t3)_networking
+-rw-r--r--    1 1000     1000         4399 May 06 09:57 (t4)_rsync
+-rw-r--r--    1 1000     1000         1692 May 06 10:32 (t4)_scp
+-rw-r--r--    1 1000     1000        11585 Apr 25 10:07 (t5)_task
+-rw-r--r--    1 1000     1000         8192 May 06 11:50 (t7)_setup_ftp
+-rw-r--r--    1 1000     1000        14146 Apr 25 11:10 (t7)_task
+-rw-r--r--    1 1000     1000       380928 Apr 26 20:50 (t8)1.package_management
+-rw-r--r--    1 1000     1000       190826 May 06 11:06 (t8)_package_management
+-rw-r--r--    1 1000     1000         3041 May 06 11:22 (t8)_perl
+drwxr-xr-x    2 1000     1000         4096 May 06 09:49 Desktop
+drwxr-xr-x    2 1000     1000         4096 Mar 14 09:01 Documents
+drwxr-xr-x    2 1000     1000         4096 Mar 14 11:22 Downloads
+drwxr-xr-x    2 1000     1000         4096 May 06 09:50 Fosslab
+drwxr-xr-x    2 1000     1000         4096 Mar 14 09:01 Music
+drwxr-xr-x    2 1000     1000         4096 Mar 14 09:01 Pictures
+drwxr-xr-x    2 1000     1000         4096 Mar 14 09:01 Public
+drwxr-xr-x    2 1000     1000         4096 Mar 14 09:01 Templates
+drwxr-xr-x    2 1000     1000         4096 Mar 14 09:01 Videos
+-rwxrwxr-x    1 1000     1000         8825 Mar 14 10:58 compute_gpa
+-rw-r--r--    1 1000     1000         8980 Mar 14 08:55 examples.desktop
+-rw-r--r--    1 1000     1000            0 May 06 09:39 fosslab
+-rw-r--r--    1 1000     1000           41 May 06 11:11 hello.pl
+drwxr-xr-x    2 1000     1000         4096 Apr 25 09:14 me.txt
+drwxr-xr-x    2 0        0            4096 Apr 25 09:57 my_new_folder
+drwxr-xr-x    2 0        0            4096 Apr 25 10:05 my_new_folder1
+-rw-r--r--    1 1000     1000           12 May 06 10:32 result.txt
+-rw-r--r--    1 1000     1000            0 Mar 14 10:45 result_one_per_line.txt
+-rw-r--r--    1 1000     1000            0 Mar 14 11:33 s1result.txt
+-rw-rw-r--    1 1000     1000         2995 Mar 14 10:37 s4d.txt
+-rw-r--r--    1 1000     1000        67602 Mar 14 11:57 scrriptingtask
+-rw-r--r--    1 1000     1000          106 May 06 11:21 sum.pl
+226 Directory send OK.
+ftp> exit
+221 Goodbye.
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-05-06 11:51:14+05:30
