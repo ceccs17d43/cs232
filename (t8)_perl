@@ -1,0 +1,37 @@
+Script started on 2019-05-06 11:14:19+05:30
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ exitsudo apt purge vlc[5@-get remov[C[C[C[C[C[2@ -reconfigur[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pdpkg -s[C[C[C[C[13@sudo apt-get install[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt install perl
+[sudo] password for roshin: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 99%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+perl is already the newest version (5.26.2-7ubuntu0.1).
+The following packages were automatically installed and are no longer required:
+  i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
+  libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5 libmicrodns0
+  libmpcdec6 libmpeg2-4 libmysofa0 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo5 libpostproc55 libprotobuf-lite10 libproxy-tools libqt5x11extras5 libresid-builder0c2a libsdl-image1.2
+  libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsndio7.0 libspatialaudio0 libssh-gcrypt-4 libssh2-1 libswresample3 libswscale5 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2
+  libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-160 libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin
+  vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 362 not upgraded.
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ cat hello.pl
+use strict;
+use warnings;
+print "Hello";
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ perl hello.pl
+Hello]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ [K]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ cat sum.pl
+use strict;
+use warnings;
+print "Enter the two numbers";
+$a=<>;
+$b=<>;
+my $sum=$a+$b;
+print "sum=$sum\n";
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ perl sum.pl
+Enter the two numbers5
+6
+sum=11
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ scrip[K[K[K[K[Kexit
+exit
+
+Script done on 2019-05-06 11:22:31+05:30
