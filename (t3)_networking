@@ -1,0 +1,107 @@
+Script started on 2019-05-06 10:42:52+05:30
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ifconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::917f:9dbc:5def:e9f3  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:3d:29:d2  txqueuelen 1000  (Ethernet)
+        RX packets 44663  bytes 46046867 (46.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21320  bytes 2662326 (2.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4563  bytes 389814 (389.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4563  bytes 389814 (389.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ifconfig enp0s3
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::917f:9dbc:5def:e9f3  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:3d:29:d2  txqueuelen 1000  (Ethernet)
+        RX packets 44663  bytes 46046867 (46.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21320  bytes 2662326 (2.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ifconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::917f:9dbc:5def:e9f3  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:3d:29:d2  txqueuelen 1000  (Ethernet)
+        RX packets 44663  bytes 46046867 (46.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21320  bytes 2662326 (2.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4563  bytes 389814 (389.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4563  bytes 389814 (389.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo ifcong em[Knps0[K[K0s3 ip[K[Kip[K[Kup
+[sudo] password for roshin: 
+sudo: ifcong: command not found
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo ifconfig ebps[K[K[Knp0s3 up
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ifconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::917f:9dbc:5def:e9f3  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:3d:29:d2  txqueuelen 1000  (Ethernet)
+        RX packets 44679  bytes 46047971 (46.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21328  bytes 2662982 (2.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4571  bytes 390318 (390.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4571  bytes 390318 (390.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ifconfigsudo ifconfig enp0s3 up[K[Kdown
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ifconfig
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4579  bytes 390818 (390.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4579  bytes 390818 (390.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ifconfigsudo ifconfig enp0s3 down[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Ksudo ifconfig enp0s3 up
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ifconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::917f:9dbc:5def:e9f3  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:3d:29:d2  txqueuelen 1000  (Ethernet)
+        RX packets 44883  bytes 46073298 (46.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21548  bytes 2684627 (2.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4620  bytes 393444 (393.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4620  bytes 393444 (393.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-05-06 10:45:27+05:30
