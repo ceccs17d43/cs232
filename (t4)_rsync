@@ -1,0 +1,43 @@
+Script started on 2019-05-06 09:45:13+05:30
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ exitsudo ping 192.168.0.5ifconfig enp0s3 up[2Pping 192.168.0.5ifconfig enp0s3 down[2Pupping 192.169.0.189[2P8.0.5ifconfig enp0s3 down[Kexit[Ksudo ifconfig enp0s3 updown1[C[C[C[C[C[C[C0[C[C[C[C[C[Kexit[Ksudo gedit /var/www/html/index.nginx-debian.html [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /var/www/html[Ksudo gedit /etc/nginx/sites-enabled/default[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pvar/www/index.htmletc/nginx/sites-enabled/default[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Papt install nginx[3P-get update[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pftp localhostexit[Ksudo apt install nginx[3P-get update[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcat default ls[Kcd /defaultls[Kcat default [8Pexit[K[K[K[Ksudo apt -[K[K-get install rsync
+[sudo] password for roshin: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+rsync is already the newest version (3.1.2-2.2).
+0 upgraded, 0 newly installed, 0 to remove and 343 not upgraded.
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ rsu[Kync -zvh s[Kresult.txt fo[K[KFosll[K[Kslab
+result.txt
+
+sent 100 bytes  received 35 bytes  270.00 bytes/sec
+total size is 12  speedup is 0.09
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ rsync /[K./f[KFosslab[C ./Fosslab- ./Fosslaba ./Fosslab[C[C[C[C[C[C[C[C[C[C/b[1Pb[C/result.txt[K[Kxt [C c s 1 7 d 4 3 @ 1 4 . 1 3 9 . 1 8 9 . 2 1 7 : ~ / 
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d43@14.139.189.217's password: 
+Permission denied, please try again.
+cs17d43@14.139.189.217's password: 
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ls
+ [0m[01;32mcompute_gpa[0m   [01;34mDocuments[0m   examples.desktop   [01;34mFosslab[0m   [01;34mMusic[0m           [01;34mmy_new_folder1[0m   [01;34mPublic[0m                    result.txt     s4d.txt         '(t4)_rsync'  '(t7)_task'                  [01;34mTemplates[0m
+ [01;34mDesktop[0m       [01;34mDownloads[0m   fosslab            [01;34mme.txt[0m    [01;34mmy_new_folder[0m   [01;34mPictures[0m         result_one_per_line.txt   s1result.txt   scrriptingtask  '(t5)_task'   '(t8)1.package_management'   [01;34mVideos[0m
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ry[Ksync -avzhw[Ke ssh csd43@14.139.189.217
+sending incremental file list
+rsync: link_stat "/home/roshin/csd43@14.139.189.217" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ rsync -avzhe ssh csd43@14.139.189.217[C[C[C143@14.139.189.217[C[1P43@14.139.189.2171d43@14.139.189.2177d43@14.139.189.217
+sending incremental file list
+rsync: link_stat "/home/roshin/cs17d43@14.139.189.217" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-05-06 09:57:53+05:30
