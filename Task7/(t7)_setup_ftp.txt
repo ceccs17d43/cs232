@@ -1,9 +1,31 @@
 Script started on 2019-05-06 11:48:47+05:30
 ]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt insta[K[K[K[K[K[K[K[K[K[K apt remove --pp[Kurge vsftpd
 [sudo] password for roshin: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 The following packages were automatically installed and are no longer required:
   i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
   libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5 libmicrodns0
@@ -18,17 +40,82 @@ The following packages will be REMOVED:
 After this operation, 338 kB disk space will be freed.
 Do you want to continue? [Y/n] y
 
-7[0;51r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132435 files and directories currently installed.)
+7[0;51r8[1A(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 132435 files and directories currently installed.)
 Removing vsftpd (3.0.3-11) ...
 7[52;0f[42m[30mProgress: [  0%][49m[39m [......................................................................................................................................................................................] 87[52;0f[42m[30mProgress: [ 20%][49m[39m [####################################..................................................................................................................................................] 87[52;0f[42m[30mProgress: [ 40%][49m[39m [########################################################################..............................................................................................................] 87[52;0f[42m[30mProgress: [ 60%][49m[39m [#############################################################################################################.........................................................................] 8Processing triggers for man-db (2.8.4-2) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132383 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 132383 files and directories currently installed.)
 Purging configuration files for vsftpd (3.0.3-11) ...
 7[52;0f[42m[30mProgress: [ 80%][49m[39m [#################################################################################################################################################.....................................] 8Processing triggers for systemd (239-7ubuntu10) ...
 
-7[0;52r8[1A[J]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt remove --purge vsftpd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kperl sum.pl[K[K[K[K[K[K[K[K[K[K[Ksudoo[K apt install vsftpd
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+7[0;52r8[1A[J]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt remove --purge vsftpd
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kperl sum.pl[K[K[K[K[K[K[K[K[K[K[Ksudoo[K apt install vsftpd
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 The following packages were automatically installed and are no longer required:
   i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
   libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5 libmicrodns0
@@ -45,7 +132,28 @@ After this operation, 338 kB of additional disk space will be used.
 Preconfiguring packages ...
 
 7[0;51r8[1ASelecting previously unselected package vsftpd.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 132379 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 132379 files and directories currently installed.)
 Preparing to unpack .../vsftpd_3.0.3-11_amd64.deb ...
 7[52;0f[42m[30mProgress: [  0%][49m[39m [......................................................................................................................................................................................] 87[52;0f[42m[30mProgress: [ 20%][49m[39m [####################################..................................................................................................................................................] 8Unpacking vsftpd (3.0.3-11) ...
 7[52;0f[42m[30mProgress: [ 40%][49m[39m [########################################################################..............................................................................................................] 8Setting up vsftpd (3.0.3-11) ...
