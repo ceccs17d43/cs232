@@ -1,0 +1,38 @@
+Script started on 2019-05-06 10:31:35+05:30
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ exitssh cs17d43@14.139.189.217
+c.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d43@14.139.189.217's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+55 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon May  6 10:31:08 2019 from 137.97.133.217
+
+$ ls
+CHNResult.pdf  examples.desktop  result.txt  s4d.txt  (t4)sshtask  (t5)sftptask  test
+$ exit
+Connection to 14.139.189.217 closed.
+
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ ssh cs17d43@14.139.189.217
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kssh cs17d43@14.139.189.217
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcript \(t4\)_scpp cs17d43@14.139.189.217:result.txt ./
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d43@14.139.189.217's password: 
+
+result.txt                                                                                                                                                                  0%    0     0.0KB/s   --:-- ETA
+result.txt                                                                                                                                                                100%   12     0.1KB/s   00:00    
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-05-06 10:32:11+05:30
