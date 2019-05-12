@@ -1,0 +1,2072 @@
+Script started on 2019-05-06 10:57:17+05:30
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt-get update
+[sudo] password for roshin: 
+
+0% [Working]
+0% [Connecting to in.archive.ubuntu.com (91.189.88.152)] [Waiting for headers]
+                                                                              
+Get:1 http://security.ubuntu.com/ubuntu cosmic-security InRelease [88.7 kB]
+
+                                                                              
+0% [Waiting for headers] [1 InRelease 990 B/88.7 kB 1%]
+                                                       
+Hit:2 http://in.archive.ubuntu.com/ubuntu cosmic InRelease
+
+                                                       
+0% [1 InRelease 12.7 kB/88.7 kB 14%]
+0% [2 InRelease gpgv 242 kB] [Waiting for headers] [1 InRelease 12.7 kB/88.7 kB 14%]
+                                                                                    
+Get:3 http://in.archive.ubuntu.com/ubuntu cosmic-updates InRelease [88.7 kB]
+
+0% [2 InRelease gpgv 242 kB] [3 InRelease 1,008 B/88.7 kB 1%] [1 InRelease 28.9 kB/88.7 kB 33%]
+                                                                                               
+0% [3 InRelease 20.5 kB/88.7 kB 23%] [1 InRelease 45.2 kB/88.7 kB 51%]
+                                                                      
+0% [3 InRelease 41.2 kB/88.7 kB 46%]
+0% [1 InRelease gpgv 88.7 kB] [3 InRelease 41.3 kB/88.7 kB 47%]
+                                                               
+0% [3 InRelease 51.7 kB/88.7 kB 58%]
+                                    
+0% [Waiting for headers]
+0% [3 InRelease gpgv 88.7 kB] [Waiting for headers] [Waiting for headers]
+                                                                         
+Get:4 http://security.ubuntu.com/ubuntu cosmic-security/main amd64 Packages [171 kB]
+
+0% [3 InRelease gpgv 88.7 kB] [Waiting for headers] [4 Packages 2,391 B/171 kB 1%]
+                                                                                  
+Get:5 http://in.archive.ubuntu.com/ubuntu cosmic-backports InRelease [74.6 kB]
+
+0% [3 InRelease gpgv 88.7 kB] [5 InRelease 1,008 B/74.6 kB 1%] [4 Packages 74.6 kB/171 kB 44%]
+                                                                                              
+0% [5 InRelease 46.5 kB/74.6 kB 62%] [4 Packages 109 kB/171 kB 64%]
+                                                                   
+0% [4 Packages 146 kB/171 kB 85%]
+0% [5 InRelease gpgv 74.6 kB] [Waiting for headers] [4 Packages 146 kB/171 kB 85%]
+                                                                                  
+0% [5 InRelease gpgv 74.6 kB] [Waiting for headers]
+0% [4 Packages store 0 B] [5 InRelease gpgv 74.6 kB] [Waiting for headers] [Waiting for headers]
+                                                                                                
+Get:6 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main i386 Packages [307 kB]
+
+0% [4 Packages store 0 B] [5 InRelease gpgv 74.6 kB] [6 Packages 1,091 B/307 kB 0%] [Waiting for headers]
+                                                                                                         
+27% [4 Packages store 0 B] [6 Packages 64.1 kB/307 kB 21%] [Waiting for headers]
+                                                                                
+27% [6 Packages 64.1 kB/307 kB 21%] [Waiting for headers]
+                                                         
+Get:7 http://security.ubuntu.com/ubuntu cosmic-security/main i386 Packages [139 kB]
+
+27% [6 Packages 64.1 kB/307 kB 21%] [7 Packages 2,391 B/139 kB 2%]
+                                                                  
+32% [6 Packages 192 kB/307 kB 62%]
+                                  
+Get:8 http://security.ubuntu.com/ubuntu cosmic-security/main Translation-en [64.7 kB]
+
+33% [6 Packages 197 kB/307 kB 64%] [8 Translation-en 0 B/64.7 kB 0%]
+33% [7 Packages store 0 B] [6 Packages 197 kB/307 kB 64%] [8 Translation-en 3,736 B/64.7 kB 6%]
+                                                                                               
+33% [6 Packages 202 kB/307 kB 66%] [8 Translation-en 24.5 kB/64.7 kB 38%]
+                                                                         
+35% [6 Packages 256 kB/307 kB 83%]
+35% [8 Translation-en store 0 B] [6 Packages 256 kB/307 kB 83%]
+                                                               
+Get:9 http://security.ubuntu.com/ubuntu cosmic-security/main amd64 DEP-11 Metadata [17.0 kB]
+
+35% [8 Translation-en store 0 B] [6 Packages 257 kB/307 kB 84%] [9 Components-amd64 0 B/17.0 kB 0%]
+                                                                                                   
+35% [6 Packages 261 kB/307 kB 85%] [9 Components-amd64 4,503 B/17.0 kB 27%]
+                                                                           
+Get:10 http://security.ubuntu.com/ubuntu cosmic-security/main DEP-11 48x48 Icons [2,831 B]
+
+                                                                           
+36% [6 Packages 270 kB/307 kB 88%] [10 icons-48x48 916 B/2,831 B 32%]
+36% [9 Components-amd64 store 0 B] [6 Packages 270 kB/307 kB 88%] [10 icons-48x48 2,216 B/2,831 B 78%]
+                                                                                                      
+Get:11 http://security.ubuntu.com/ubuntu cosmic-security/main DEP-11 64x64 Icons [3,890 B]
+
+36% [9 Components-amd64 store 0 B] [6 Packages 274 kB/307 kB 89%] [11 icons-64x64 1,780 B/3,890 B 46%]
+                                                                                                      
+36% [9 Components-amd64 store 0 B] [6 Packages 277 kB/307 kB 90%]
+                                                                 
+Get:12 http://security.ubuntu.com/ubuntu cosmic-security/universe i386 Packages [158 kB]
+
+36% [9 Components-amd64 store 0 B] [6 Packages 279 kB/307 kB 91%] [12 Packages 2,881 B/158 kB 2%]
+                                                                                                 
+36% [6 Packages 279 kB/307 kB 91%] [12 Packages 5,481 B/158 kB 3%]
+36% [10 icons-48x48 store 0 B] [6 Packages 279 kB/307 kB 91%] [12 Packages 5,481 B/158 kB 3%]
+                                                                                             
+37% [6 Packages 279 kB/307 kB 91%] [12 Packages 5,481 B/158 kB 3%]
+37% [11 icons-64x64 store 0 B] [6 Packages 279 kB/307 kB 91%] [12 Packages 5,481 B/158 kB 3%]
+                                                                                             
+37% [6 Packages 279 kB/307 kB 91%] [12 Packages 5,481 B/158 kB 3%]
+                                                                  
+38% [12 Packages 44.5 kB/158 kB 28%]
+                                    
+Get:13 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 Packages [346 kB]
+
+38% [13 Packages 0 B/346 kB 0%] [12 Packages 44.5 kB/158 kB 28%]
+38% [6 Packages store 0 B] [13 Packages 2,174 B/346 kB 1%] [12 Packages 44.5 kB/158 kB 28%]
+                                                                                           
+40% [13 Packages 44.5 kB/346 kB 13%] [12 Packages 83.5 kB/158 kB 53%]
+                                                                     
+43% [13 Packages 118 kB/346 kB 34%]
+43% [12 Packages store 0 B] [13 Packages 118 kB/346 kB 34%]
+                                                           
+Get:14 http://security.ubuntu.com/ubuntu cosmic-security/universe amd64 Packages [158 kB]
+
+43% [12 Packages store 0 B] [13 Packages 121 kB/346 kB 35%] [14 Packages 0 B/158 kB 0%]
+                                                                                       
+44% [13 Packages 139 kB/346 kB 40%] [14 Packages 22.7 kB/158 kB 14%]
+                                                                    
+49% [13 Packages 267 kB/346 kB 77%] [14 Packages 156 kB/158 kB 99%]
+                                                                   
+49% [13 Packages 267 kB/346 kB 77%]
+49% [14 Packages store 0 B] [13 Packages 267 kB/346 kB 77%]
+                                                           
+Get:15 http://security.ubuntu.com/ubuntu cosmic-security/universe Translation-en [92.3 kB]
+
+49% [14 Packages store 0 B] [13 Packages 267 kB/346 kB 77%] [15 Translation-en 0 B/92.3 kB 0%]
+                                                                                              
+52% [13 Packages 319 kB/346 kB 92%] [15 Translation-en 51.5 kB/92.3 kB 56%]
+                                                                           
+53% [15 Translation-en 83.9 kB/92.3 kB 91%]
+                                           
+Get:16 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main Translation-en [133 kB]
+
+53% [16 Translation-en 0 B/133 kB 0%] [15 Translation-en 83.9 kB/92.3 kB 91%]
+53% [13 Packages store 0 B] [16 Translation-en 3,585 B/133 kB 3%] [15 Translation-en 85.9 kB/92.3 kB 93%]
+                                                                                                         
+53% [13 Packages store 0 B] [16 Translation-en 10.0 kB/133 kB 8%] [Waiting for headers]
+                                                                                       
+Get:17 http://security.ubuntu.com/ubuntu cosmic-security/universe amd64 DEP-11 Metadata [24.7 kB]
+
+53% [13 Packages store 0 B] [16 Translation-en 10.0 kB/133 kB 8%] [17 Components-amd64 1,175 B/24.7 kB 5%]
+                                                                                                          
+54% [13 Packages store 0 B] [16 Translation-en 38.0 kB/133 kB 29%] [Waiting for headers]
+                                                                                        
+Get:18 http://security.ubuntu.com/ubuntu cosmic-security/universe DEP-11 48x48 Icons [11.4 kB]
+
+54% [13 Packages store 0 B] [16 Translation-en 38.0 kB/133 kB 29%] [18 icons-48x48 2,914 B/11.4 kB 26%]
+                                                                                                       
+Get:19 http://security.ubuntu.com/ubuntu cosmic-security/universe DEP-11 64x64 Icons [62.2 kB]
+
+                                                                                                       
+55% [13 Packages store 0 B] [16 Translation-en 49.8 kB/133 kB 37%] [19 icons-64x64 1,744 B/62.2 kB 3%]
+                                                                                                      
+55% [16 Translation-en 52.4 kB/133 kB 39%] [19 icons-64x64 5,644 B/62.2 kB 9%]
+55% [15 Translation-en store 0 B] [16 Translation-en 52.4 kB/133 kB 39%] [19 icons-64x64 5,644 B/62.2 kB 9%]
+                                                                                                            
+56% [16 Translation-en 66.7 kB/133 kB 50%] [19 icons-64x64 22.5 kB/62.2 kB 36%]
+56% [17 Components-amd64 store 0 B] [16 Translation-en 69.8 kB/133 kB 53%] [19 icons-64x64 22.5 kB/62.2 kB 36%]
+                                                                                                               
+56% [16 Translation-en 77.6 kB/133 kB 58%] [19 icons-64x64 32.9 kB/62.2 kB 53%]
+56% [18 icons-48x48 store 0 B] [16 Translation-en 77.6 kB/133 kB 58%] [19 icons-64x64 32.9 kB/62.2 kB 53%]
+                                                                                                          
+56% [16 Translation-en 77.6 kB/133 kB 58%] [19 icons-64x64 32.9 kB/62.2 kB 53%]
+                                                                               
+58% [16 Translation-en 112 kB/133 kB 84%]
+                                         
+Get:20 http://security.ubuntu.com/ubuntu cosmic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+
+58% [16 Translation-en 112 kB/133 kB 84%] [20 Components-amd64 0 B/2,464 B 0%]
+                                                                              
+58% [16 Translation-en 112 kB/133 kB 84%]
+58% [19 icons-64x64 store 0 B] [16 Translation-en 112 kB/133 kB 84%]
+                                                                    
+58% [16 Translation-en 115 kB/133 kB 87%]
+58% [20 Components-amd64 store 0 B] [16 Translation-en 117 kB/133 kB 88%]
+                                                                         
+58% [16 Translation-en 117 kB/133 kB 88%]
+                                         
+58% [Working]
+             
+Get:21 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 DEP-11 Metadata [143 kB]
+
+58% [21 Components-amd64 0 B/143 kB 0%]
+59% [16 Translation-en store 0 B] [21 Components-amd64 1,166 B/143 kB 1%]
+                                                                         
+59% [21 Components-amd64 16.2 kB/143 kB 11%]
+                                            
+62% [Working]
+62% [21 Components-amd64 store 0 B]
+                                   
+Get:22 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main DEP-11 48x48 Icons [36.2 kB]
+
+62% [21 Components-amd64 store 0 B] [22 icons-48x48 0 B/36.2 kB 0%]
+                                                                   
+62% [22 icons-48x48 35.5 kB/36.2 kB 98%]
+                                        
+62% [Waiting for headers]
+                         
+Get:23 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main DEP-11 64x64 Icons [56.1 kB]
+
+62% [23 icons-64x64 1,620 B/56.1 kB 3%]
+62% [22 icons-48x48 store 0 B] [23 icons-64x64 1,620 B/56.1 kB 3%]
+                                                                  
+63% [23 icons-64x64 1,620 B/56.1 kB 3%]
+                                       
+64% [Working]
+64% [Working]
+             
+Get:24 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe amd64 Packages [652 kB]
+
+64% [24 Packages 0 B/652 kB 0%]
+67% [24 Packages 161 kB/652 kB 25%]                                                                                                                                                             362 kB/s 4s
+70% [24 Packages 300 kB/652 kB 46%]                                                                                                                                                             362 kB/s 3s
+73% [24 Packages 450 kB/652 kB 69%]                                                                                                                                                             362 kB/s 3s
+76% [24 Packages 614 kB/652 kB 94%]                                                                                                                                                             362 kB/s 3s
+77% [Working]                                                                                                                                                                                   362 kB/s 2s
+77% [24 Packages store 0 B]                                                                                                                                                                     362 kB/s 2s
+                                                                                                                                                                                                           
+Get:25 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe i386 Packages [648 kB]
+
+77% [24 Packages store 0 B] [25 Packages 0 B/648 kB 0%]                                                                                                                                         362 kB/s 2s
+80% [25 Packages 120 kB/648 kB 18%]                                                                                                                                                             362 kB/s 2s
+83% [25 Packages 283 kB/648 kB 44%]                                                                                                                                                             362 kB/s 2s
+86% [25 Packages 436 kB/648 kB 67%]                                                                                                                                                             362 kB/s 1s
+89% [25 Packages 588 kB/648 kB 91%]                                                                                                                                                             362 kB/s 1s
+91% [Working]                                                                                                                                                                                   362 kB/s 1s
+91% [25 Packages store 0 B]                                                                                                                                                                     362 kB/s 1s
+                                                                                                                                                                                                           
+Get:26 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe Translation-en [177 kB]
+
+91% [25 Packages store 0 B] [26 Translation-en 0 B/177 kB 0%]                                                                                                                                   362 kB/s 1s
+93% [26 Translation-en 102 kB/177 kB 58%]                                                                                                                                                       362 kB/s 0s
+94% [Working]                                                                                                                                                                                   362 kB/s 0s
+94% [26 Translation-en store 0 B]                                                                                                                                                               362 kB/s 0s
+                                                                                                                                                                                                           
+Get:27 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe amd64 DEP-11 Metadata [70.4 kB]
+
+94% [26 Translation-en store 0 B] [27 Components-amd64 0 B/70.4 kB 0%]                                                                                                                          362 kB/s 0s
+96% [27 Components-amd64 53.4 kB/70.4 kB 76%]                                                                                                                                                   362 kB/s 0s
+96% [Working]                                                                                                                                                                                   362 kB/s 0s
+                                                                                                                                                                                                           
+Get:28 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe DEP-11 48x48 Icons [36.7 kB]
+
+96% [28 icons-48x48 0 B/36.7 kB 0%]                                                                                                                                                             362 kB/s 0s
+96% [27 Components-amd64 store 0 B] [28 icons-48x48 993 B/36.7 kB 3%]                                                                                                                           362 kB/s 0s
+96% [28 icons-48x48 10.2 kB/36.7 kB 28%]                                                                                                                                                        362 kB/s 0s
+97% [Working]                                                                                                                                                                                   362 kB/s 0s
+97% [28 icons-48x48 store 0 B]                                                                                                                                                                  362 kB/s 0s
+97% [Working]                                                                                                                                                                                   362 kB/s 0s
+                                                                                                                                                                                                           
+Get:29 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe DEP-11 64x64 Icons [107 kB]
+
+97% [29 icons-64x64 0 B/107 kB 0%]                                                                                                                                                              362 kB/s 0s
+99% [Working]                                                                                                                                                                                   362 kB/s 0s
+99% [29 icons-64x64 store 0 B]                                                                                                                                                                  362 kB/s 0s
+99% [Working]                                                                                                                                                                                   362 kB/s 0s
+                                                                                                                                                                                                           
+Get:30 http://in.archive.ubuntu.com/ubuntu cosmic-updates/multiverse amd64 DEP-11 Metadata [2,468 B]
+
+99% [30 Components-amd64 0 B/2,468 B 0%]                                                                                                                                                        362 kB/s 0s
+99% [Working]                                                                                                                                                                                   362 kB/s 0s
+99% [30 Components-amd64 store 0 B]                                                                                                                                                             362 kB/s 0s
+99% [Working]                                                                                                                                                                                   362 kB/s 0s
+                                                                                                                                                                                                           
+Get:31 http://in.archive.ubuntu.com/ubuntu cosmic-backports/universe amd64 Packages [2,888 B]
+
+99% [31 Packages 0 B/2,888 B 0%]                                                                                                                                                                362 kB/s 0s
+99% [Working]                                                                                                                                                                                   362 kB/s 0s
+99% [31 Packages store 0 B]                                                                                                                                                                     362 kB/s 0s
+100% [Working]                                                                                                                                                                                  362 kB/s 0s
+                                                                                                                                                                                                           
+Get:32 http://in.archive.ubuntu.com/ubuntu cosmic-backports/universe i386 Packages [2,888 B]
+
+100% [32 Packages 0 B/2,888 B 0%]                                                                                                                                                               362 kB/s 0s
+100% [Working]                                                                                                                                                                                  362 kB/s 0s
+100% [32 Packages store 0 B]                                                                                                                                                                    362 kB/s 0s
+100% [Working]                                                                                                                                                                                  362 kB/s 0s
+                                                                                                                                                                                                           
+Get:33 http://in.archive.ubuntu.com/ubuntu cosmic-backports/universe amd64 DEP-11 Metadata [7,160 B]
+
+100% [33 Components-amd64 0 B/7,160 B 0%]                                                                                                                                                       362 kB/s 0s
+100% [Working]                                                                                                                                                                                  362 kB/s 0s
+100% [33 Components-amd64 store 0 B]                                                                                                                                                            362 kB/s 0s
+100% [Working]                                                                                                                                                                                  362 kB/s 0s
+                                                                                                                                                                                                           
+Fetched 3,887 kB in 12s (334 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 38%
+
+Reading package lists... 38%
+
+Reading package lists... 53%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 84%
+
+Reading package lists... 84%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo a[[t[K[K[Kpt saear[K[K[K[Kearch vlc
+
+Sorting... 0%
+
+Sorting... 0%
+
+Sorting... 0%
+
+Sorting... Done
+
+
+Full Text Search... 50%
+
+Full Text Search... 50%
+
+Full Text Search... Done
+
+[32mcubemap[0m/cosmic 1.3.2-1 amd64
+  scalable video reflector, designed to be used with VLC
+
+[32mdvblast[0m/cosmic 3.3-1 amd64
+  Simple and powerful dvb-streaming application
+
+[32mforensics-extra-gui[0m/cosmic,cosmic 1.13 all
+  Forensics Environment - extra GUI components (metapackage)
+
+[32mfp-units-multimedia[0m/cosmic 3.0.4+dfsg-20ubuntu1 amd64
+  Free Pascal - multimedia units dependency package
+
+[32mfp-units-multimedia-3.0.4[0m/cosmic 3.0.4+dfsg-20ubuntu1 amd64
+  Free Pascal - multimedia units
+
+[32mfreeplayer[0m/cosmic,cosmic 20070531+dfsg.1-5build1 all
+  wrapper around vlc for French ADSL FreeBox
+
+[32mfreetuxtv[0m/cosmic 0.6.8~dfsg1-1build1 amd64
+  Internet television and radio player
+
+[32mgetstream[0m/cosmic 20100616-1build1 amd64
+  DVB streaming application
+
+[32mgir1.2-playerctl-1.0[0m/cosmic 0.6.1-1 amd64
+  utility to control media players via MPRIS (gir bindings)
+
+[32mhdhomerun-config[0m/cosmic 20180817-1 amd64
+  Configuration utility for Silicon Dust HD HomeRun
+
+[32mhdhomerun-config-gui[0m/cosmic 20161117-0ubuntu3 amd64
+  GUI Configuration utility for Silicon Dust HD HomeRun
+
+[32mkaffeine[0m/cosmic 2.0.15-2 amd64
+  versatile media player for KDE
+
+[32mladitools[0m/cosmic,cosmic 1.1.0-3.1 all
+  Linux Audio Desktop Integration Tools
+
+[32mlibbluray-bdj[0m/cosmic,cosmic 1:1.0.2-3 all
+  Blu-ray Disc Java support library (BD-J library)
+
+[32mlibbluray-bin[0m/cosmic 1:1.0.2-3 amd64
+  Blu-ray disc playback support library (tools)
+
+[32mlibbluray-dev[0m/cosmic 1:1.0.2-3 amd64
+  Blu-ray disc playback support library (development files)
+
+[32mlibbluray-doc[0m/cosmic,cosmic 1:1.0.2-3 all
+  Blu-ray disc playback support library (documentation)
+
+[32mlibbluray2[0m/cosmic 1:1.0.2-3 amd64
+  Blu-ray disc playback support library (shared library)
+
+[32mlibdvd-pkg[0m/cosmic,cosmic 1.4.2-1-1 all
+  DVD-Video playing library - installer
+
+[32mlibemotion-players[0m/cosmic 1.20.7-7 amd64
+  Additional file format loaders for libemotion
+
+[32mlibhdhomerun-dev[0m/cosmic 20180817-1 amd64
+  Development library for Silicon Dust HD HomeRun
+
+[32mlibhdhomerun4[0m/cosmic 20180817-1 amd64
+  Library for Silicon Dust HD HomeRun
+
+[32mlibplayerctl-1.0-0[0m/cosmic 0.6.1-1 amd64
+  utility to control media players via MPRIS (library)
+
+[32mlibplayerctl-dev[0m/cosmic 0.6.1-1 amd64
+  utility to control media players via MPRIS (development files)
+
+[32mlibplayerctl-doc[0m/cosmic,cosmic 0.6.1-1 all
+  utility to control media players via MPRIS (documentation)
+
+[32mlibvcdinfo-dev[0m/cosmic 2.0.1+dfsg-3 amd64
+  library to extract information from VideoCD (development files)
+
+[32mlibvcdinfo0[0m/cosmic 2.0.1+dfsg-3 amd64
+  library to extract information from VideoCD
+
+[32mlibvlc-bin[0m/cosmic 3.0.4-2build1 amd64
+  tools for VLC's base library
+
+[32mlibvlc-dev[0m/cosmic 3.0.4-2build1 amd64
+  development files for libvlc
+
+[32mlibvlc5[0m/cosmic 3.0.4-2build1 amd64
+  multimedia player and streamer library
+
+[32mlibvlccore-dev[0m/cosmic 3.0.4-2build1 amd64
+  development files for libvlccore
+
+[32mlibvlccore9[0m/cosmic 3.0.4-2build1 amd64
+  base library for VLC and its modules
+
+[32mmimms[0m/cosmic,cosmic 3.2.2-1.1 all
+  mms (e.g. mms://) stream downloader
+
+[32mmpris-remote[0m/cosmic,cosmic 0.0~1.gpb7c7f5c6-1.1 all
+  command-line interface for mpris compatible media players
+
+[32mphonon-backend-vlc[0m/cosmic 0.10.1-2 amd64
+  Phonon VLC backend
+
+[32mphonon4qt5-backend-vlc[0m/cosmic 0.10.1-2 amd64
+  Phonon4Qt5 VLC backend
+
+[32mpidgin-mpris[0m/cosmic 0.2.3-3 amd64
+  sets your available message to your currently playing track
+
+[32mplayerctl[0m/cosmic 0.6.1-1 amd64
+  utility to control media players via MPRIS
+
+[32mpython3-pafy[0m/cosmic,cosmic 0.5.2-2 all
+  Download videos and retrieve metadata from YouTube
+
+[32mpython3-streamlink[0m/cosmic,cosmic 0.14.2+dfsg-1 all
+  Python module for extracting video streams from various websites
+
+[32mpython3-streamlink-doc[0m/cosmic,cosmic 0.14.2+dfsg-1 all
+  CLI for extracting video streams from various websites (documentation)
+
+[32msmtube[0m/cosmic 18.3.0-1 amd64
+  YouTube videos browser
+
+[32mstreamlink[0m/cosmic,cosmic 0.14.2+dfsg-1 all
+  CLI for extracting video streams from various websites to a video player
+
+[32mvlc[0m/cosmic 3.0.4-2build1 amd64
+  multimedia player and streamer
+
+[32mvlc-bin[0m/cosmic 3.0.4-2build1 amd64
+  binaries from VLC
+
+[32mvlc-data[0m/cosmic,cosmic 3.0.4-2build1 all
+  common data for VLC
+
+[32mvlc-l10n[0m/cosmic,cosmic 3.0.4-2build1 all
+  translations for VLC
+
+[32mvlc-plugin-access-extra[0m/cosmic 3.0.4-2build1 amd64
+  multimedia player and streamer (extra access plugins)
+
+[32mvlc-plugin-base[0m/cosmic 3.0.4-2build1 amd64
+  multimedia player and streamer (base plugins)
+
+[32mvlc-plugin-fluidsynth[0m/cosmic 3.0.4-2build1 amd64
+  FluidSynth plugin for VLC
+
+[32mvlc-plugin-jack[0m/cosmic 3.0.4-2build1 amd64
+  JACK audio plugins for VLC
+
+[32mvlc-plugin-notify[0m/cosmic 3.0.4-2build1 amd64
+  LibNotify plugin for VLC
+
+[32mvlc-plugin-qt[0m/cosmic 3.0.4-2build1 amd64
+  multimedia player and streamer (Qt plugin)
+
+[32mvlc-plugin-samba[0m/cosmic 3.0.4-2build1 amd64
+  Samba plugin for VLC
+
+[32mvlc-plugin-skins2[0m/cosmic 3.0.4-2build1 amd64
+  multimedia player and streamer (Skins2 plugin)
+
+[32mvlc-plugin-svg[0m/cosmic 3.0.4-2build1 amd64
+  SVG plugin for VLC
+
+[32mvlc-plugin-video-output[0m/cosmic 3.0.4-2build1 amd64
+  multimedia player and streamer (video output plugins)
+
+[32mvlc-plugin-video-splitter[0m/cosmic 3.0.4-2build1 amd64
+  multimedia player and streamer (video splitter plugins)
+
+[32mvlc-plugin-visualization[0m/cosmic 3.0.4-2build1 amd64
+  multimedia player and streamer (visualization plugins)
+
+[32mvlc-plugin-vlsub[0m/cosmic,cosmic 0.10.2-2 all
+  VLC extension to download subtitles from opensubtitles.org
+
+[32mvlc-plugin-zvbi[0m/cosmic 3.0.4-2build1 amd64
+  transitional dummy package
+
+[32mwinetricks[0m/cosmic,cosmic 0.0+20180815-1 all
+  package manager for Wine to install software easily
+
+[32mx264[0m/cosmic 2:0.152.2854+gite9a5903-2build1 amd64
+  video encoder for the H.264/MPEG-4 AVC standard
+
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt-get install vlc
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 91%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
+  libcrystalhd3 libdc1394-22 libdca0 libdouble-conversion1 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5
+  libmicrodns0 libmpcdec6 libmpeg2-4 libmysofa0 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo5 libpostproc55 libprotobuf-lite10 libproxy-tools libqt5core5a libqt5dbus5 libqt5gui5
+  libqt5network5 libqt5svg5 libqt5widgets5 libqt5x11extras5 libresid-builder0c2a libsdl-image1.2 libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsndio7.0 libspatialaudio0 libssh-gcrypt-4 libssh2-1
+  libswresample3 libswscale5 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2 libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-160 libxcb-xinerama0
+  libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers qt5-gtk-platformtheme qttranslations5-l10n va-driver-all vdpau-driver-all vlc-bin vlc-data vlc-l10n vlc-plugin-base
+  vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+Suggested packages:
+  i965-va-driver-shaders libbluray-bdj firmware-crystalhd libdvdcss2 qt5-image-formats-plugins qtwayland5 sndiod libvdpau-va-gl1 nvidia-vdpau-driver nvidia-legacy-340xx-vdpau-driver
+  nvidia-legacy-304xx-vdpau-driver
+The following NEW packages will be installed:
+  i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
+  libcrystalhd3 libdc1394-22 libdca0 libdouble-conversion1 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5
+  libmicrodns0 libmpcdec6 libmpeg2-4 libmysofa0 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo5 libpostproc55 libprotobuf-lite10 libproxy-tools libqt5core5a libqt5dbus5 libqt5gui5
+  libqt5network5 libqt5svg5 libqt5widgets5 libqt5x11extras5 libresid-builder0c2a libsdl-image1.2 libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsndio7.0 libspatialaudio0 libssh-gcrypt-4 libssh2-1
+  libswresample3 libswscale5 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2 libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-160 libxcb-xinerama0
+  libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers qt5-gtk-platformtheme qttranslations5-l10n va-driver-all vdpau-driver-all vlc vlc-bin vlc-data vlc-l10n vlc-plugin-base
+  vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+0 upgraded, 98 newly installed, 0 to remove and 366 not upgraded.
+Need to get 39.2 MB of archives.
+After this operation, 210 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 	y
+Abort.
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt-get install vlc
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
+  libcrystalhd3 libdc1394-22 libdca0 libdouble-conversion1 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5
+  libmicrodns0 libmpcdec6 libmpeg2-4 libmysofa0 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo5 libpostproc55 libprotobuf-lite10 libproxy-tools libqt5core5a libqt5dbus5 libqt5gui5
+  libqt5network5 libqt5svg5 libqt5widgets5 libqt5x11extras5 libresid-builder0c2a libsdl-image1.2 libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsndio7.0 libspatialaudio0 libssh-gcrypt-4 libssh2-1
+  libswresample3 libswscale5 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2 libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-160 libxcb-xinerama0
+  libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers qt5-gtk-platformtheme qttranslations5-l10n va-driver-all vdpau-driver-all vlc-bin vlc-data vlc-l10n vlc-plugin-base
+  vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+Suggested packages:
+  i965-va-driver-shaders libbluray-bdj firmware-crystalhd libdvdcss2 qt5-image-formats-plugins qtwayland5 sndiod libvdpau-va-gl1 nvidia-vdpau-driver nvidia-legacy-340xx-vdpau-driver
+  nvidia-legacy-304xx-vdpau-driver
+The following NEW packages will be installed:
+  i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
+  libcrystalhd3 libdc1394-22 libdca0 libdouble-conversion1 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5
+  libmicrodns0 libmpcdec6 libmpeg2-4 libmysofa0 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo5 libpostproc55 libprotobuf-lite10 libproxy-tools libqt5core5a libqt5dbus5 libqt5gui5
+  libqt5network5 libqt5svg5 libqt5widgets5 libqt5x11extras5 libresid-builder0c2a libsdl-image1.2 libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsndio7.0 libspatialaudio0 libssh-gcrypt-4 libssh2-1
+  libswresample3 libswscale5 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2 libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-160 libxcb-xinerama0
+  libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers qt5-gtk-platformtheme qttranslations5-l10n va-driver-all vdpau-driver-all vlc vlc-bin vlc-data vlc-l10n vlc-plugin-base
+  vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+0 upgraded, 98 newly installed, 0 to remove and 366 not upgraded.
+Need to get 39.2 MB of archives.
+After this operation, 210 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+0% [Connecting to in.archive.ubuntu.com (91.189.88.152)]
+                                                        
+0% [Waiting for headers]
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libdouble-conversion1 amd64 2.0.1-5 [32.9 kB]
+
+0% [1 libdouble-conversion1 0 B/32.9 kB 0%]
+                                           
+0% [Working]
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libqt5core5a amd64 5.11.1+dfsg-7ubuntu3 [2,050 kB]
+
+0% [2 libqt5core5a 0 B/2,050 kB 0%]
+0% [2 libqt5core5a 85.5 kB/2,050 kB 4%]
+1% [2 libqt5core5a 245 kB/2,050 kB 12%]
+1% [2 libqt5core5a 397 kB/2,050 kB 19%]
+1% [2 libqt5core5a 558 kB/2,050 kB 27%]
+2% [2 libqt5core5a 702 kB/2,050 kB 34%]
+2% [2 libqt5core5a 841 kB/2,050 kB 41%]
+2% [2 libqt5core5a 994 kB/2,050 kB 48%]
+3% [2 libqt5core5a 1,140 kB/2,050 kB 56%]
+3% [2 libqt5core5a 1,300 kB/2,050 kB 63%]                                                                                                                                                 212 kB/s 2min 58s
+3% [2 libqt5core5a 1,447 kB/2,050 kB 71%]                                                                                                                                                 212 kB/s 2min 57s
+4% [2 libqt5core5a 1,597 kB/2,050 kB 78%]                                                                                                                                                 212 kB/s 2min 57s
+4% [2 libqt5core5a 1,760 kB/2,050 kB 86%]                                                                                                                                                 212 kB/s 2min 56s
+4% [2 libqt5core5a 1,895 kB/2,050 kB 92%]                                                                                                                                                 212 kB/s 2min 55s
+4% [2 libqt5core5a 2,043 kB/2,050 kB 100%]                                                                                                                                                212 kB/s 2min 54s
+5% [Working]                                                                                                                                                                              212 kB/s 2min 54s
+                                                                                                                                                                                                           
+Get:3 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libqt5dbus5 amd64 5.11.1+dfsg-7ubuntu3 [200 kB]
+
+5% [3 libqt5dbus5 0 B/200 kB 0%]                                                                                                                                                          212 kB/s 2min 54s
+5% [3 libqt5dbus5 161 kB/200 kB 81%]                                                                                                                                                      212 kB/s 2min 54s
+5% [Working]                                                                                                                                                                              212 kB/s 2min 53s
+                                                                                                                                                                                                           
+Get:4 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libqt5network5 amd64 5.11.1+dfsg-7ubuntu3 [650 kB]
+
+5% [4 libqt5network5 0 B/650 kB 0%]                                                                                                                                                       212 kB/s 2min 53s
+6% [4 libqt5network5 148 kB/650 kB 23%]                                                                                                                                                   212 kB/s 2min 53s
+6% [4 libqt5network5 299 kB/650 kB 46%]                                                                                                                                                   212 kB/s 2min 52s
+6% [4 libqt5network5 454 kB/650 kB 70%]                                                                                                                                                   212 kB/s 2min 51s
+6% [4 libqt5network5 593 kB/650 kB 91%]                                                                                                                                                   212 kB/s 2min 51s
+7% [4 libqt5network5 632 kB/650 kB 97%]                                                                                                                                                   212 kB/s 2min 50s
+7% [Working]                                                                                                                                                                              212 kB/s 2min 50s
+                                                                                                                                                                                                           
+Get:5 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libxcb-xinerama0 amd64 1.13.1-1 [5,240 B]
+
+7% [5 libxcb-xinerama0 0 B/5,240 B 0%]                                                                                                                                                    212 kB/s 2min 50s
+7% [Working]                                                                                                                                                                              212 kB/s 2min 50s
+                                                                                                                                                                                                           
+Get:6 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libqt5gui5 amd64 5.11.1+dfsg-7ubuntu3 [2,757 kB]
+
+7% [6 libqt5gui5 0 B/2,757 kB 0%]                                                                                                                                                         212 kB/s 2min 50s
+7% [6 libqt5gui5 147 kB/2,757 kB 5%]                                                                                                                                                       282 kB/s 2min 7s
+8% [6 libqt5gui5 288 kB/2,757 kB 10%]                                                                                                                                                      282 kB/s 2min 7s
+8% [6 libqt5gui5 437 kB/2,757 kB 16%]                                                                                                                                                      282 kB/s 2min 6s
+8% [6 libqt5gui5 604 kB/2,757 kB 22%]                                                                                                                                                      282 kB/s 2min 6s
+9% [6 libqt5gui5 746 kB/2,757 kB 27%]                                                                                                                                                      282 kB/s 2min 5s
+9% [6 libqt5gui5 891 kB/2,757 kB 32%]                                                                                                                                                      282 kB/s 2min 5s
+9% [6 libqt5gui5 1,058 kB/2,757 kB 38%]                                                                                                                                                    282 kB/s 2min 4s
+9% [6 libqt5gui5 1,202 kB/2,757 kB 44%]                                                                                                                                                    282 kB/s 2min 4s
+10% [6 libqt5gui5 1,358 kB/2,757 kB 49%]                                                                                                                                                   282 kB/s 2min 3s
+10% [6 libqt5gui5 1,510 kB/2,757 kB 55%]                                                                                                                                                   282 kB/s 2min 3s
+10% [6 libqt5gui5 1,661 kB/2,757 kB 60%]                                                                                                                                                   282 kB/s 2min 2s
+11% [6 libqt5gui5 1,804 kB/2,757 kB 65%]                                                                                                                                                   282 kB/s 2min 2s
+11% [6 libqt5gui5 1,967 kB/2,757 kB 71%]                                                                                                                                                  303 kB/s 1min 53s
+11% [6 libqt5gui5 2,103 kB/2,757 kB 76%]                                                                                                                                                  303 kB/s 1min 52s
+12% [6 libqt5gui5 2,272 kB/2,757 kB 82%]                                                                                                                                                  303 kB/s 1min 52s
+12% [6 libqt5gui5 2,423 kB/2,757 kB 88%]                                                                                                                                                  303 kB/s 1min 51s
+12% [6 libqt5gui5 2,572 kB/2,757 kB 93%]                                                                                                                                                  303 kB/s 1min 51s
+13% [6 libqt5gui5 2,732 kB/2,757 kB 99%]                                                                                                                                                  303 kB/s 1min 50s
+13% [Working]                                                                                                                                                                             303 kB/s 1min 50s
+                                                                                                                                                                                                           
+Get:7 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libqt5widgets5 amd64 5.11.1+dfsg-7ubuntu3 [2,232 kB]
+
+13% [7 libqt5widgets5 0 B/2,232 kB 0%]                                                                                                                                                    303 kB/s 1min 50s
+13% [7 libqt5widgets5 162 kB/2,232 kB 7%]                                                                                                                                                 303 kB/s 1min 50s
+14% [7 libqt5widgets5 320 kB/2,232 kB 14%]                                                                                                                                                303 kB/s 1min 49s
+14% [7 libqt5widgets5 469 kB/2,232 kB 21%]                                                                                                                                                303 kB/s 1min 49s
+14% [7 libqt5widgets5 632 kB/2,232 kB 28%]                                                                                                                                                303 kB/s 1min 48s
+14% [7 libqt5widgets5 775 kB/2,232 kB 35%]                                                                                                                                                303 kB/s 1min 48s
+15% [7 libqt5widgets5 925 kB/2,232 kB 41%]                                                                                                                                                303 kB/s 1min 47s
+15% [7 libqt5widgets5 1,090 kB/2,232 kB 49%]                                                                                                                                              305 kB/s 1min 46s
+15% [7 libqt5widgets5 1,150 kB/2,232 kB 52%]                                                                                                                                              305 kB/s 1min 45s
+15% [7 libqt5widgets5 1,282 kB/2,232 kB 57%]                                                                                                                                              305 kB/s 1min 45s
+16% [7 libqt5widgets5 1,441 kB/2,232 kB 65%]                                                                                                                                              305 kB/s 1min 44s
+16% [7 libqt5widgets5 1,586 kB/2,232 kB 71%]                                                                                                                                              305 kB/s 1min 44s
+16% [7 libqt5widgets5 1,749 kB/2,232 kB 78%]                                                                                                                                              305 kB/s 1min 43s
+17% [7 libqt5widgets5 1,881 kB/2,232 kB 84%]                                                                                                                                              305 kB/s 1min 43s
+17% [7 libqt5widgets5 2,012 kB/2,232 kB 90%]                                                                                                                                              305 kB/s 1min 43s
+17% [7 libqt5widgets5 2,164 kB/2,232 kB 97%]                                                                                                                                              305 kB/s 1min 42s
+18% [Working]                                                                                                                                                                             305 kB/s 1min 42s
+                                                                                                                                                                                                           
+Get:8 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libqt5svg5 amd64 5.11.1-2 [128 kB]
+
+18% [8 libqt5svg5 0 B/128 kB 0%]                                                                                                                                                          305 kB/s 1min 42s
+18% [Working]                                                                                                                                                                             305 kB/s 1min 41s
+                                                                                                                                                                                                           
+Get:9 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 liba52-0.7.4 amd64 0.7.4-19 [35.2 kB]
+
+18% [9 liba52-0.7.4 0 B/35.2 kB 0%]                                                                                                                                                       305 kB/s 1min 41s
+18% [Working]                                                                                                                                                                             305 kB/s 1min 41s
+                                                                                                                                                                                                           
+Get:10 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libaacs0 amd64 0.9.0-1 [51.4 kB]
+
+18% [10 libaacs0 0 B/51.4 kB 0%]                                                                                                                                                          305 kB/s 1min 41s
+19% [Working]                                                                                                                                                                             305 kB/s 1min 41s
+                                                                                                                                                                                                           
+Get:11 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libaom0 amd64 1.0.0-2 [1,164 kB]
+
+19% [11 libaom0 0 B/1,164 kB 0%]                                                                                                                                                          305 kB/s 1min 41s
+19% [11 libaom0 153 kB/1,164 kB 13%]                                                                                                                                                      305 kB/s 1min 41s
+19% [11 libaom0 315 kB/1,164 kB 27%]                                                                                                                                                      305 kB/s 1min 40s
+20% [11 libaom0 448 kB/1,164 kB 38%]                                                                                                                                                      279 kB/s 1min 49s
+20% [11 libaom0 586 kB/1,164 kB 50%]                                                                                                                                                      279 kB/s 1min 49s
+20% [11 libaom0 730 kB/1,164 kB 63%]                                                                                                                                                      279 kB/s 1min 48s
+20% [11 libaom0 872 kB/1,164 kB 75%]                                                                                                                                                      279 kB/s 1min 48s
+21% [11 libaom0 1,030 kB/1,164 kB 88%]                                                                                                                                                    279 kB/s 1min 47s
+21% [Working]                                                                                                                                                                             279 kB/s 1min 47s
+                                                                                                                                                                                                           
+Get:12 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libaribb24-0 amd64 1.0.3-2 [26.9 kB]
+
+21% [12 libaribb24-0 0 B/26.9 kB 0%]                                                                                                                                                      279 kB/s 1min 47s
+22% [Working]                                                                                                                                                                             279 kB/s 1min 47s
+                                                                                                                                                                                                           
+Get:13 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libass9 amd64 1:0.14.0-2 [88.0 kB]
+
+22% [13 libass9 0 B/88.0 kB 0%]                                                                                                                                                           279 kB/s 1min 47s
+22% [Working]                                                                                                                                                                             279 kB/s 1min 46s
+                                                                                                                                                                                                           
+Get:14 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libva2 amd64 2.2.0-1 [47.9 kB]
+
+22% [14 libva2 0 B/47.9 kB 0%]                                                                                                                                                            279 kB/s 1min 46s
+22% [Working]                                                                                                                                                                             279 kB/s 1min 46s
+                                                                                                                                                                                                           
+Get:15 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libva-drm2 amd64 2.2.0-1 [6,884 B]
+
+22% [15 libva-drm2 0 B/6,884 B 0%]                                                                                                                                                        279 kB/s 1min 46s
+22% [Working]                                                                                                                                                                             279 kB/s 1min 46s
+                                                                                                                                                                                                           
+Get:16 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libva-x11-2 amd64 2.2.0-1 [11.5 kB]
+
+22% [16 libva-x11-2 0 B/11.5 kB 0%]                                                                                                                                                       279 kB/s 1min 46s
+23% [Working]                                                                                                                                                                             279 kB/s 1min 46s
+                                                                                                                                                                                                           
+Get:17 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libvdpau1 amd64 1.1.1-8ubuntu1 [25.7 kB]
+
+23% [17 libvdpau1 0 B/25.7 kB 0%]                                                                                                                                                         279 kB/s 1min 46s
+23% [Working]                                                                                                                                                                             279 kB/s 1min 46s
+                                                                                                                                                                                                           
+Get:18 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libavutil56 amd64 7:4.0.2-2 [189 kB]
+
+23% [18 libavutil56 0 B/189 kB 0%]                                                                                                                                                        279 kB/s 1min 46s
+23% [18 libavutil56 144 kB/189 kB 76%]                                                                                                                                                    279 kB/s 1min 45s
+23% [Working]                                                                                                                                                                             279 kB/s 1min 45s
+                                                                                                                                                                                                           
+Get:19 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libcodec2-0.8.1 amd64 0.8.1-1 [232 kB]
+
+23% [19 libcodec2-0.8.1 0 B/232 kB 0%]                                                                                                                                                    279 kB/s 1min 45s
+24% [19 libcodec2-0.8.1 146 kB/232 kB 63%]                                                                                                                                                279 kB/s 1min 45s
+24% [Working]                                                                                                                                                                             279 kB/s 1min 44s
+                                                                                                                                                                                                           
+Get:20 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libcrystalhd3 amd64 1:0.0~git20110715.fdd2f19-13 [45.9 kB]
+
+24% [20 libcrystalhd3 0 B/45.9 kB 0%]                                                                                                                                                     279 kB/s 1min 44s
+24% [Working]                                                                                                                                                                             279 kB/s 1min 44s
+                                                                                                                                                                                                           
+Get:21 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libgsm1 amd64 1.0.13-4build1 [22.4 kB]
+
+24% [21 libgsm1 0 B/22.4 kB 0%]                                                                                                                                                           279 kB/s 1min 44s
+25% [Working]                                                                                                                                                                             279 kB/s 1min 44s
+                                                                                                                                                                                                           
+Get:22 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libopenjp2-7 amd64 2.3.0-1 [145 kB]
+
+25% [22 libopenjp2-7 0 B/145 kB 0%]                                                                                                                                                       279 kB/s 1min 44s
+25% [22 libopenjp2-7 123 kB/145 kB 85%]                                                                                                                                                   279 kB/s 1min 44s
+25% [22 libopenjp2-7 129 kB/145 kB 89%]                                                                                                                                                   279 kB/s 1min 44s
+25% [Working]                                                                                                                                                                             279 kB/s 1min 44s
+                                                                                                                                                                                                           
+Get:23 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libshine3 amd64 3.1.1-2 [23.2 kB]
+
+25% [23 libshine3 0 B/23.2 kB 0%]                                                                                                                                                         279 kB/s 1min 44s
+25% [Working]                                                                                                                                                                             279 kB/s 1min 44s
+                                                                                                                                                                                                           
+Get:24 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libsnappy1v5 amd64 1.1.7-1 [16.0 kB]
+
+25% [24 libsnappy1v5 0 B/16.0 kB 0%]                                                                                                                                                      279 kB/s 1min 44s
+26% [Working]                                                                                                                                                                             279 kB/s 1min 44s
+                                                                                                                                                                                                           
+Get:25 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libswresample3 amd64 7:4.0.2-2 [55.8 kB]
+
+26% [25 libswresample3 0 B/55.8 kB 0%]                                                                                                                                                    279 kB/s 1min 44s
+26% [Working]                                                                                                                                                                             268 kB/s 1min 47s
+                                                                                                                                                                                                           
+Get:26 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libx264-152 amd64 2:0.152.2854+gite9a5903-2build1 [601 kB]
+
+26% [26 libx264-152 0 B/601 kB 0%]                                                                                                                                                        268 kB/s 1min 47s
+26% [26 libx264-152 128 kB/601 kB 21%]                                                                                                                                                    268 kB/s 1min 47s
+27% [26 libx264-152 273 kB/601 kB 45%]                                                                                                                                                    268 kB/s 1min 46s
+27% [26 libx264-152 434 kB/601 kB 72%]                                                                                                                                                    268 kB/s 1min 46s
+27% [26 libx264-152 590 kB/601 kB 98%]                                                                                                                                                    268 kB/s 1min 45s
+27% [Working]                                                                                                                                                                             268 kB/s 1min 45s
+                                                                                                                                                                                                           
+Get:27 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libx265-160 amd64 2.8-4 [1,027 kB]
+
+27% [27 libx265-160 0 B/1,027 kB 0%]                                                                                                                                                      268 kB/s 1min 45s
+28% [27 libx265-160 141 kB/1,027 kB 14%]                                                                                                                                                  268 kB/s 1min 45s
+28% [27 libx265-160 290 kB/1,027 kB 28%]                                                                                                                                                  268 kB/s 1min 44s
+28% [27 libx265-160 444 kB/1,027 kB 43%]                                                                                                                                                  268 kB/s 1min 43s
+29% [27 libx265-160 600 kB/1,027 kB 58%]                                                                                                                                                  268 kB/s 1min 43s
+29% [27 libx265-160 737 kB/1,027 kB 72%]                                                                                                                                                  268 kB/s 1min 42s
+29% [27 libx265-160 889 kB/1,027 kB 87%]                                                                                                                                                  268 kB/s 1min 42s
+30% [Working]                                                                                                                                                                             268 kB/s 1min 41s
+                                                                                                                                                                                                           
+Get:28 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libxvidcore4 amd64 2:1.3.5-1 [200 kB]
+
+30% [28 libxvidcore4 0 B/200 kB 0%]                                                                                                                                                       268 kB/s 1min 41s
+30% [28 libxvidcore4 140 kB/200 kB 70%]                                                                                                                                                   294 kB/s 1min 32s
+30% [Working]                                                                                                                                                                             294 kB/s 1min 32s
+                                                                                                                                                                                                           
+Get:29 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libzvbi-common all 0.2.35-13 [32.1 kB]
+
+30% [29 libzvbi-common 0 B/32.1 kB 0%]                                                                                                                                                    294 kB/s 1min 32s
+31% [Working]                                                                                                                                                                             294 kB/s 1min 32s
+                                                                                                                                                                                                           
+Get:30 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libzvbi0 amd64 0.2.35-13 [235 kB]
+
+31% [30 libzvbi0 0 B/235 kB 0%]                                                                                                                                                           294 kB/s 1min 32s
+31% [30 libzvbi0 151 kB/235 kB 64%]                                                                                                                                                       294 kB/s 1min 31s
+31% [Working]                                                                                                                                                                             294 kB/s 1min 31s
+                                                                                                                                                                                                           
+Get:31 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libavcodec58 amd64 7:4.0.2-2 [4,630 kB]
+
+31% [31 libavcodec58 0 B/4,630 kB 0%]                                                                                                                                                     294 kB/s 1min 31s
+32% [31 libavcodec58 164 kB/4,630 kB 4%]                                                                                                                                                  294 kB/s 1min 30s
+32% [31 libavcodec58 316 kB/4,630 kB 7%]                                                                                                                                                  294 kB/s 1min 30s
+32% [31 libavcodec58 475 kB/4,630 kB 10%]                                                                                                                                                 294 kB/s 1min 29s
+33% [31 libavcodec58 626 kB/4,630 kB 14%]                                                                                                                                                 294 kB/s 1min 29s
+33% [31 libavcodec58 762 kB/4,630 kB 16%]                                                                                                                                                 294 kB/s 1min 28s
+33% [31 libavcodec58 914 kB/4,630 kB 20%]                                                                                                                                                 294 kB/s 1min 28s
+33% [31 libavcodec58 952 kB/4,630 kB 21%]                                                                                                                                                 294 kB/s 1min 28s
+33% [31 libavcodec58 1,059 kB/4,630 kB 23%]                                                                                                                                               294 kB/s 1min 27s
+34% [31 libavcodec58 1,218 kB/4,630 kB 26%]                                                                                                                                               294 kB/s 1min 27s
+34% [31 libavcodec58 1,363 kB/4,630 kB 29%]                                                                                                                                               276 kB/s 1min 32s
+34% [31 libavcodec58 1,501 kB/4,630 kB 32%]                                                                                                                                               276 kB/s 1min 31s
+35% [31 libavcodec58 1,639 kB/4,630 kB 35%]                                                                                                                                               276 kB/s 1min 31s
+35% [31 libavcodec58 1,788 kB/4,630 kB 39%]                                                                                                                                               276 kB/s 1min 30s
+35% [31 libavcodec58 1,928 kB/4,630 kB 42%]                                                                                                                                               276 kB/s 1min 30s
+36% [31 libavcodec58 2,076 kB/4,630 kB 45%]                                                                                                                                               276 kB/s 1min 29s
+36% [31 libavcodec58 2,209 kB/4,630 kB 48%]                                                                                                                                               276 kB/s 1min 29s
+36% [31 libavcodec58 2,342 kB/4,630 kB 51%]                                                                                                                                               276 kB/s 1min 28s
+36% [31 libavcodec58 2,502 kB/4,630 kB 54%]                                                                                                                                               276 kB/s 1min 28s
+37% [31 libavcodec58 2,643 kB/4,630 kB 57%]                                                                                                                                               276 kB/s 1min 27s
+37% [31 libavcodec58 2,805 kB/4,630 kB 61%]                                                                                                                                               276 kB/s 1min 27s
+37% [31 libavcodec58 2,944 kB/4,630 kB 64%]                                                                                                                                               276 kB/s 1min 26s
+38% [31 libavcodec58 3,097 kB/4,630 kB 67%]                                                                                                                                               288 kB/s 1min 22s
+38% [31 libavcodec58 3,240 kB/4,630 kB 70%]                                                                                                                                               288 kB/s 1min 21s
+38% [31 libavcodec58 3,407 kB/4,630 kB 74%]                                                                                                                                               288 kB/s 1min 21s
+39% [31 libavcodec58 3,543 kB/4,630 kB 77%]                                                                                                                                               288 kB/s 1min 20s
+39% [31 libavcodec58 3,682 kB/4,630 kB 80%]                                                                                                                                               288 kB/s 1min 20s
+39% [31 libavcodec58 3,800 kB/4,630 kB 82%]                                                                                                                                               288 kB/s 1min 19s
+39% [31 libavcodec58 3,925 kB/4,630 kB 85%]                                                                                                                                               288 kB/s 1min 19s
+40% [31 libavcodec58 4,044 kB/4,630 kB 87%]                                                                                                                                               288 kB/s 1min 19s
+40% [31 libavcodec58 4,194 kB/4,630 kB 91%]                                                                                                                                               288 kB/s 1min 18s
+40% [31 libavcodec58 4,330 kB/4,630 kB 94%]                                                                                                                                               288 kB/s 1min 18s
+40% [31 libavcodec58 4,484 kB/4,630 kB 97%]                                                                                                                                               288 kB/s 1min 17s
+41% [Working]                                                                                                                                                                             288 kB/s 1min 16s
+                                                                                                                                                                                                           
+Get:32 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libbluray2 amd64 1:1.0.2-3 [141 kB]
+
+41% [32 libbluray2 0 B/141 kB 0%]                                                                                                                                                         288 kB/s 1min 16s
+41% [Working]                                                                                                                                                                             288 kB/s 1min 16s
+                                                                                                                                                                                                           
+Get:33 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libchromaprint1 amd64 1.4.3-2build1 [37.8 kB]
+
+41% [33 libchromaprint1 0 B/37.8 kB 0%]                                                                                                                                                   288 kB/s 1min 16s
+42% [Working]                                                                                                                                                                             280 kB/s 1min 18s
+                                                                                                                                                                                                           
+Get:34 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libgme0 amd64 0.6.2-1 [121 kB]
+
+42% [34 libgme0 0 B/121 kB 0%]                                                                                                                                                            280 kB/s 1min 18s
+42% [Working]                                                                                                                                                                             280 kB/s 1min 18s
+                                                                                                                                                                                                           
+Get:35 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libopenmpt0 amd64 0.3.11-1 [561 kB]
+
+42% [35 libopenmpt0 0 B/561 kB 0%]                                                                                                                                                        280 kB/s 1min 18s
+42% [35 libopenmpt0 116 kB/561 kB 21%]                                                                                                                                                    280 kB/s 1min 17s
+43% [35 libopenmpt0 263 kB/561 kB 47%]                                                                                                                                                    280 kB/s 1min 17s
+43% [35 libopenmpt0 410 kB/561 kB 73%]                                                                                                                                                    280 kB/s 1min 16s
+43% [35 libopenmpt0 551 kB/561 kB 98%]                                                                                                                                                    280 kB/s 1min 16s
+44% [Working]                                                                                                                                                                             280 kB/s 1min 16s
+                                                                                                                                                                                                           
+Get:36 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libssh-gcrypt-4 amd64 0.8.1-1ubuntu0.3 [180 kB]
+
+44% [36 libssh-gcrypt-4 0 B/180 kB 0%]                                                                                                                                                    280 kB/s 1min 16s
+44% [36 libssh-gcrypt-4 164 kB/180 kB 91%]                                                                                                                                                280 kB/s 1min 15s
+44% [Working]                                                                                                                                                                             280 kB/s 1min 15s
+                                                                                                                                                                                                           
+Get:37 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libavformat58 amd64 7:4.0.2-2 [942 kB]
+
+44% [37 libavformat58 0 B/942 kB 0%]                                                                                                                                                      280 kB/s 1min 15s
+44% [37 libavformat58 135 kB/942 kB 14%]                                                                                                                                                  280 kB/s 1min 15s
+45% [37 libavformat58 278 kB/942 kB 30%]                                                                                                                                                  280 kB/s 1min 14s
+45% [37 libavformat58 420 kB/942 kB 45%]                                                                                                                                                  280 kB/s 1min 14s
+45% [37 libavformat58 542 kB/942 kB 57%]                                                                                                                                                  280 kB/s 1min 13s
+46% [37 libavformat58 692 kB/942 kB 73%]                                                                                                                                                  280 kB/s 1min 13s
+46% [37 libavformat58 836 kB/942 kB 89%]                                                                                                                                                  280 kB/s 1min 12s
+46% [Working]                                                                                                                                                                             280 kB/s 1min 12s
+                                                                                                                                                                                                           
+Get:38 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libbasicusageenvironment1 amd64 2018.09.18-1 [16.0 kB]
+
+46% [38 libbasicusageenvironment1 0 B/16.0 kB 0%]                                                                                                                                         280 kB/s 1min 12s
+46% [Working]                                                                                                                                                                             280 kB/s 1min 12s
+                                                                                                                                                                                                           
+Get:39 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libbdplus0 amd64 0.1.2-3 [47.3 kB]
+
+46% [39 libbdplus0 0 B/47.3 kB 0%]                                                                                                                                                        280 kB/s 1min 12s
+47% [Working]                                                                                                                                                                             280 kB/s 1min 12s
+                                                                                                                                                                                                           
+Get:40 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libcddb2 amd64 1.3.2-5fakesync1 [33.9 kB]
+
+47% [40 libcddb2 0 B/33.9 kB 0%]                                                                                                                                                          280 kB/s 1min 12s
+47% [Working]                                                                                                                                                                             280 kB/s 1min 11s
+                                                                                                                                                                                                           
+Get:41 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libdvbpsi10 amd64 1.3.2-1 [47.7 kB]
+
+47% [41 libdvbpsi10 0 B/47.7 kB 0%]                                                                                                                                                       280 kB/s 1min 11s
+47% [Working]                                                                                                                                                                             280 kB/s 1min 11s
+                                                                                                                                                                                                           
+Get:42 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libdvdread4 amd64 6.0.0-1 [50.6 kB]
+
+47% [42 libdvdread4 0 B/50.6 kB 0%]                                                                                                                                                       280 kB/s 1min 11s
+48% [Working]                                                                                                                                                                             280 kB/s 1min 11s
+                                                                                                                                                                                                           
+Get:43 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libdvdnav4 amd64 6.0.0-1 [38.0 kB]
+
+48% [43 libdvdnav4 0 B/38.0 kB 0%]                                                                                                                                                        280 kB/s 1min 11s
+48% [Working]                                                                                                                                                                             280 kB/s 1min 11s
+                                                                                                                                                                                                           
+Get:44 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libebml4v5 amd64 1.3.6-2 [44.0 kB]
+
+48% [44 libebml4v5 0 B/44.0 kB 0%]                                                                                                                                                        280 kB/s 1min 11s
+48% [Working]                                                                                                                                                                             280 kB/s 1min 11s
+                                                                                                                                                                                                           
+Get:45 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libfaad2 amd64 2.8.8-1 [154 kB]
+
+48% [45 libfaad2 0 B/154 kB 0%]                                                                                                                                                           280 kB/s 1min 11s
+49% [45 libfaad2 143 kB/154 kB 93%]                                                                                                                                                       280 kB/s 1min 10s
+49% [Working]                                                                                                                                                                             280 kB/s 1min 10s
+                                                                                                                                                                                                           
+Get:46 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libgroupsock8 amd64 2018.09.18-1 [21.6 kB]
+
+49% [46 libgroupsock8 0 B/21.6 kB 0%]                                                                                                                                                     280 kB/s 1min 10s
+49% [Working]                                                                                                                                                                             280 kB/s 1min 10s
+                                                                                                                                                                                                           
+Get:47 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libkate1 amd64 0.4.1-8 [38.2 kB]
+
+49% [47 libkate1 0 B/38.2 kB 0%]                                                                                                                                                          280 kB/s 1min 10s
+49% [Working]                                                                                                                                                                             280 kB/s 1min 10s
+                                                                                                                                                                                                           
+Get:48 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 liblivemedia64 amd64 2018.09.18-1 [306 kB]
+
+49% [48 liblivemedia64 0 B/306 kB 0%]                                                                                                                                                     280 kB/s 1min 10s
+50% [48 liblivemedia64 156 kB/306 kB 51%]                                                                                                                                                  280 kB/s 1min 9s
+50% [48 liblivemedia64 305 kB/306 kB 99%]                                                                                                                                                  280 kB/s 1min 9s
+50% [Working]                                                                                                                                                                              280 kB/s 1min 9s
+                                                                                                                                                                                                           
+Get:49 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108 kB]
+
+50% [49 liblua5.2-0 0 B/108 kB 0%]                                                                                                                                                         280 kB/s 1min 9s
+51% [Working]                                                                                                                                                                              280 kB/s 1min 8s
+                                                                                                                                                                                                           
+Get:50 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe amd64 libmad0 amd64 0.15.1b-9ubuntu18.10.1 [62.9 kB]
+
+51% [50 libmad0 0 B/62.9 kB 0%]                                                                                                                                                            280 kB/s 1min 8s
+51% [Working]                                                                                                                                                                              280 kB/s 1min 8s
+                                                                                                                                                                                                           
+Get:51 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libmatroska6v5 amd64 1.4.9-1 [123 kB]
+
+51% [51 libmatroska6v5 0 B/123 kB 0%]                                                                                                                                                      280 kB/s 1min 8s
+51% [Working]                                                                                                                                                                              280 kB/s 1min 8s
+                                                                                                                                                                                                           
+Get:52 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libmicrodns0 amd64 0.0.10-1 [11.5 kB]
+
+51% [52 libmicrodns0 0 B/11.5 kB 0%]                                                                                                                                                       280 kB/s 1min 8s
+52% [Working]                                                                                                                                                                              280 kB/s 1min 8s
+                                                                                                                                                                                                           
+Get:53 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libmpcdec6 amd64 2:0.1~r495-1build1 [32.3 kB]
+
+52% [53 libmpcdec6 0 B/32.3 kB 0%]                                                                                                                                                         280 kB/s 1min 8s
+52% [Working]                                                                                                                                                                              280 kB/s 1min 8s
+                                                                                                                                                                                                           
+Get:54 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libmpeg2-4 amd64 0.5.1-8 [57.5 kB]
+
+52% [54 libmpeg2-4 0 B/57.5 kB 0%]                                                                                                                                                         280 kB/s 1min 8s
+52% [Working]                                                                                                                                                                              280 kB/s 1min 7s
+                                                                                                                                                                                                           
+Get:55 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libmysofa0 amd64 0.6~dfsg0-2 [37.8 kB]
+
+52% [55 libmysofa0 0 B/37.8 kB 0%]                                                                                                                                                         280 kB/s 1min 7s
+52% [Working]                                                                                                                                                                              280 kB/s 1min 7s
+                                                                                                                                                                                                           
+Get:56 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libnfs11 amd64 2.0.0-1~exp1 [75.7 kB]
+
+52% [56 libnfs11 0 B/75.7 kB 0%]                                                                                                                                                           280 kB/s 1min 7s
+53% [Working]                                                                                                                                                                              280 kB/s 1min 7s
+                                                                                                                                                                                                           
+Get:57 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libopenmpt-modplug1 amd64 0.3.11-1 [19.8 kB]
+
+53% [57 libopenmpt-modplug1 0 B/19.8 kB 0%]                                                                                                                                                280 kB/s 1min 7s
+53% [Working]                                                                                                                                                                              280 kB/s 1min 7s
+                                                                                                                                                                                                           
+Get:58 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libvulkan1 amd64 1.1.82.0-0ubuntu1 [87.4 kB]
+
+53% [58 libvulkan1 0 B/87.4 kB 0%]                                                                                                                                                         280 kB/s 1min 7s
+53% [Working]                                                                                                                                                                              280 kB/s 1min 7s
+                                                                                                                                                                                                           
+Get:59 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libplacebo5 amd64 0.5.0-2 [108 kB]
+
+53% [59 libplacebo5 0 B/108 kB 0%]                                                                                                                                                         280 kB/s 1min 7s
+54% [Working]                                                                                                                                                                              280 kB/s 1min 6s
+                                                                                                                                                                                                           
+Get:60 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libpostproc55 amd64 7:4.0.2-2 [52.0 kB]
+
+54% [60 libpostproc55 0 B/52.0 kB 0%]                                                                                                                                                      280 kB/s 1min 6s
+54% [Working]                                                                                                                                                                              280 kB/s 1min 6s
+                                                                                                                                                                                                           
+Get:61 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libprotobuf-lite10 amd64 3.0.0-9.1ubuntu3 [102 kB]
+
+54% [61 libprotobuf-lite10 0 B/102 kB 0%]                                                                                                                                                  280 kB/s 1min 6s
+55% [Working]                                                                                                                                                                              293 kB/s 1min 3s
+                                                                                                                                                                                                           
+Get:62 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libproxy-tools amd64 0.4.15-2 [5,304 B]
+
+55% [62 libproxy-tools 0 B/5,304 B 0%]                                                                                                                                                     293 kB/s 1min 3s
+55% [Working]                                                                                                                                                                              293 kB/s 1min 3s
+                                                                                                                                                                                                           
+Get:63 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libqt5x11extras5 amd64 5.11.1-2 [9,524 B]
+
+55% [63 libqt5x11extras5 0 B/9,524 B 0%]                                                                                                                                                   293 kB/s 1min 3s
+55% [Working]                                                                                                                                                                              293 kB/s 1min 3s
+                                                                                                                                                                                                           
+Get:64 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libresid-builder0c2a amd64 2.1.1-15ubuntu1 [31.3 kB]
+
+55% [64 libresid-builder0c2a 0 B/31.3 kB 0%]                                                                                                                                               293 kB/s 1min 3s
+55% [Working]                                                                                                                                                                              293 kB/s 1min 3s
+                                                                                                                                                                                                           
+Get:65 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libsdl1.2debian amd64 1.2.15+dfsg2-2 [174 kB]
+
+55% [65 libsdl1.2debian 0 B/174 kB 0%]                                                                                                                                                     293 kB/s 1min 3s
+56% [65 libsdl1.2debian 108 kB/174 kB 62%]                                                                                                                                                 293 kB/s 1min 2s
+56% [Working]                                                                                                                                                                              293 kB/s 1min 2s
+                                                                                                                                                                                                           
+Get:66 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libsdl-image1.2 amd64 1.2.12-8 [29.5 kB]
+
+56% [66 libsdl-image1.2 0 B/29.5 kB 0%]                                                                                                                                                    293 kB/s 1min 2s
+56% [Working]                                                                                                                                                                              293 kB/s 1min 2s
+                                                                                                                                                                                                           
+Get:67 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libsidplay2 amd64 2.1.1-15ubuntu1 [87.8 kB]
+
+56% [67 libsidplay2 0 B/87.8 kB 0%]                                                                                                                                                        293 kB/s 1min 2s
+56% [67 libsidplay2 74.1 kB/87.8 kB 84%]                                                                                                                                                   293 kB/s 1min 2s
+56% [Working]                                                                                                                                                                              293 kB/s 1min 2s
+                                                                                                                                                                                                           
+Get:68 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libsndio7.0 amd64 1.5.0-2 [24.5 kB]
+
+56% [68 libsndio7.0 0 B/24.5 kB 0%]                                                                                                                                                        293 kB/s 1min 2s
+57% [Working]                                                                                                                                                                              293 kB/s 1min 1s
+                                                                                                                                                                                                           
+Get:69 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libspatialaudio0 amd64 0.3.0+git20180730+dfsg1-1 [32.7 kB]
+
+57% [69 libspatialaudio0 0 B/32.7 kB 0%]                                                                                                                                                   293 kB/s 1min 1s
+57% [Working]                                                                                                                                                                              293 kB/s 1min 1s
+                                                                                                                                                                                                           
+Get:70 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libssh2-1 amd64 1.8.0-2 [73.6 kB]
+
+57% [70 libssh2-1 0 B/73.6 kB 0%]                                                                                                                                                          293 kB/s 1min 1s
+57% [Working]                                                                                                                                                                              293 kB/s 1min 1s
+                                                                                                                                                                                                           
+Get:71 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libswscale5 amd64 7:4.0.2-2 [151 kB]
+
+57% [71 libswscale5 0 B/151 kB 0%]                                                                                                                                                         293 kB/s 1min 1s
+58% [Working]                                                                                                                                                                              293 kB/s 1min 1s
+                                                                                                                                                                                                           
+Get:72 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libusageenvironment3 amd64 2018.09.18-1 [6,672 B]
+
+58% [72 libusageenvironment3 0 B/6,672 B 0%]                                                                                                                                               293 kB/s 1min 1s
+58% [Working]                                                                                                                                                                              293 kB/s 1min 1s
+                                                                                                                                                                                                           
+Get:73 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libva-wayland2 amd64 2.2.0-1 [8,752 B]
+
+58% [73 libva-wayland2 0 B/8,752 B 0%]                                                                                                                                                     293 kB/s 1min 1s
+58% [Working]                                                                                                                                                                              293 kB/s 1min 1s
+                                                                                                                                                                                                           
+Get:74 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libvlccore9 amd64 3.0.4-2build1 [423 kB]
+
+58% [74 libvlccore9 0 B/423 kB 0%]                                                                                                                                                         293 kB/s 1min 1s
+59% [74 libvlccore9 157 kB/423 kB 37%]                                                                                                                                                         293 kB/s 60s
+59% [74 libvlccore9 313 kB/423 kB 74%]                                                                                                                                                         293 kB/s 59s
+59% [Working]                                                                                                                                                                                  293 kB/s 59s
+                                                                                                                                                                                                           
+Get:75 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libvlc5 amd64 3.0.4-2build1 [65.0 kB]
+
+59% [75 libvlc5 0 B/65.0 kB 0%]                                                                                                                                                                293 kB/s 59s
+60% [Working]                                                                                                                                                                                  293 kB/s 59s
+                                                                                                                                                                                                           
+Get:76 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libvlc-bin amd64 3.0.4-2build1 [17.2 kB]
+
+60% [76 libvlc-bin 0 B/17.2 kB 0%]                                                                                                                                                             293 kB/s 59s
+60% [Working]                                                                                                                                                                                  293 kB/s 59s
+                                                                                                                                                                                                           
+Get:77 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe amd64 mesa-va-drivers amd64 18.2.8-0ubuntu0~18.10.2 [1,902 kB]
+
+60% [77 mesa-va-drivers 0 B/1,902 kB 0%]                                                                                                                                                       293 kB/s 59s
+60% [77 mesa-va-drivers 158 kB/1,902 kB 8%]                                                                                                                                                    293 kB/s 58s
+61% [77 mesa-va-drivers 308 kB/1,902 kB 16%]                                                                                                                                                   293 kB/s 58s
+61% [77 mesa-va-drivers 455 kB/1,902 kB 24%]                                                                                                                                               262 kB/s 1min 4s
+61% [77 mesa-va-drivers 602 kB/1,902 kB 32%]                                                                                                                                               262 kB/s 1min 4s
+61% [77 mesa-va-drivers 710 kB/1,902 kB 37%]                                                                                                                                               262 kB/s 1min 3s
+62% [77 mesa-va-drivers 849 kB/1,902 kB 45%]                                                                                                                                               262 kB/s 1min 3s
+62% [77 mesa-va-drivers 992 kB/1,902 kB 52%]                                                                                                                                               262 kB/s 1min 2s
+62% [77 mesa-va-drivers 1,148 kB/1,902 kB 60%]                                                                                                                                             262 kB/s 1min 2s
+63% [77 mesa-va-drivers 1,285 kB/1,902 kB 68%]                                                                                                                                             262 kB/s 1min 1s
+63% [77 mesa-va-drivers 1,395 kB/1,902 kB 73%]                                                                                                                                             262 kB/s 1min 1s
+63% [77 mesa-va-drivers 1,545 kB/1,902 kB 81%]                                                                                                                                                 262 kB/s 60s
+63% [77 mesa-va-drivers 1,694 kB/1,902 kB 89%]                                                                                                                                                 262 kB/s 59s
+64% [77 mesa-va-drivers 1,863 kB/1,902 kB 98%]                                                                                                                                                 262 kB/s 59s
+64% [Working]                                                                                                                                                                                  262 kB/s 59s
+                                                                                                                                                                                                           
+Get:78 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 mesa-vdpau-drivers amd64 18.2.8-0ubuntu0~18.10.2 [2,031 kB]
+
+64% [78 mesa-vdpau-drivers 0 B/2,031 kB 0%]                                                                                                                                                    262 kB/s 59s
+64% [78 mesa-vdpau-drivers 172 kB/2,031 kB 8%]                                                                                                                                                 262 kB/s 58s
+65% [78 mesa-vdpau-drivers 313 kB/2,031 kB 15%]                                                                                                                                                283 kB/s 53s
+65% [78 mesa-vdpau-drivers 477 kB/2,031 kB 23%]                                                                                                                                                283 kB/s 53s
+65% [78 mesa-vdpau-drivers 611 kB/2,031 kB 30%]                                                                                                                                                283 kB/s 52s
+66% [78 mesa-vdpau-drivers 766 kB/2,031 kB 38%]                                                                                                                                                283 kB/s 52s
+66% [78 mesa-vdpau-drivers 931 kB/2,031 kB 46%]                                                                                                                                                283 kB/s 51s
+66% [78 mesa-vdpau-drivers 1,006 kB/2,031 kB 50%]                                                                                                                                              283 kB/s 51s
+66% [78 mesa-vdpau-drivers 1,102 kB/2,031 kB 54%]                                                                                                                                              283 kB/s 50s
+67% [78 mesa-vdpau-drivers 1,263 kB/2,031 kB 62%]                                                                                                                                              283 kB/s 50s
+67% [78 mesa-vdpau-drivers 1,399 kB/2,031 kB 69%]                                                                                                                                              283 kB/s 49s
+67% [78 mesa-vdpau-drivers 1,547 kB/2,031 kB 76%]                                                                                                                                              283 kB/s 49s
+68% [78 mesa-vdpau-drivers 1,706 kB/2,031 kB 84%]                                                                                                                                              283 kB/s 48s
+68% [78 mesa-vdpau-drivers 1,849 kB/2,031 kB 91%]                                                                                                                                              283 kB/s 48s
+68% [78 mesa-vdpau-drivers 2,017 kB/2,031 kB 99%]                                                                                                                                              283 kB/s 47s
+68% [Working]                                                                                                                                                                                  283 kB/s 47s
+                                                                                                                                                                                                           
+Get:79 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 qt5-gtk-platformtheme amd64 5.11.1+dfsg-7ubuntu3 [119 kB]
+
+68% [79 qt5-gtk-platformtheme 0 B/119 kB 0%]                                                                                                                                                   283 kB/s 47s
+69% [Working]                                                                                                                                                                                  283 kB/s 47s
+                                                                                                                                                                                                           
+Get:80 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 qttranslations5-l10n all 5.11.1-2 [1,501 kB]
+
+69% [80 qttranslations5-l10n 0 B/1,501 kB 0%]                                                                                                                                                  283 kB/s 47s
+69% [80 qttranslations5-l10n 162 kB/1,501 kB 11%]                                                                                                                                              283 kB/s 46s
+69% [80 qttranslations5-l10n 308 kB/1,501 kB 21%]                                                                                                                                              283 kB/s 46s
+70% [80 qttranslations5-l10n 467 kB/1,501 kB 31%]                                                                                                                                              283 kB/s 45s
+70% [80 qttranslations5-l10n 590 kB/1,501 kB 39%]                                                                                                                                              283 kB/s 45s
+70% [80 qttranslations5-l10n 731 kB/1,501 kB 49%]                                                                                                                                              283 kB/s 44s
+71% [80 qttranslations5-l10n 860 kB/1,501 kB 57%]                                                                                                                                              283 kB/s 44s
+71% [80 qttranslations5-l10n 1,008 kB/1,501 kB 67%]                                                                                                                                            283 kB/s 43s
+71% [80 qttranslations5-l10n 1,128 kB/1,501 kB 75%]                                                                                                                                            283 kB/s 43s
+71% [80 qttranslations5-l10n 1,279 kB/1,501 kB 85%]                                                                                                                                            283 kB/s 42s
+72% [80 qttranslations5-l10n 1,427 kB/1,501 kB 95%]                                                                                                                                            283 kB/s 42s
+72% [Working]                                                                                                                                                                                  283 kB/s 41s
+                                                                                                                                                                                                           
+Get:81 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 i965-va-driver amd64 2.2.0-0ubuntu1 [929 kB]
+
+72% [81 i965-va-driver 0 B/929 kB 0%]                                                                                                                                                          283 kB/s 41s
+72% [81 i965-va-driver 172 kB/929 kB 18%]                                                                                                                                                      288 kB/s 40s
+73% [81 i965-va-driver 327 kB/929 kB 35%]                                                                                                                                                      288 kB/s 40s
+73% [81 i965-va-driver 493 kB/929 kB 53%]                                                                                                                                                      288 kB/s 39s
+73% [81 i965-va-driver 610 kB/929 kB 66%]                                                                                                                                                      288 kB/s 39s
+73% [81 i965-va-driver 615 kB/929 kB 66%]                                                                                                                                                      288 kB/s 39s
+74% [81 i965-va-driver 770 kB/929 kB 83%]                                                                                                                                                      288 kB/s 38s
+74% [81 i965-va-driver 928 kB/929 kB 100%]                                                                                                                                                     288 kB/s 37s
+74% [Working]                                                                                                                                                                                  288 kB/s 37s
+                                                                                                                                                                                                           
+Get:82 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 va-driver-all amd64 2.2.0-1 [4,496 B]
+
+74% [82 va-driver-all 0 B/4,496 B 0%]                                                                                                                                                          288 kB/s 37s
+74% [Working]                                                                                                                                                                                  288 kB/s 37s
+                                                                                                                                                                                                           
+Get:83 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 vdpau-driver-all amd64 1.1.1-8ubuntu1 [4,684 B]
+
+74% [83 vdpau-driver-all 0 B/4,684 B 0%]                                                                                                                                                       288 kB/s 37s
+75% [Working]                                                                                                                                                                                  288 kB/s 37s
+                                                                                                                                                                                                           
+Get:84 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-bin amd64 3.0.4-2build1 [53.1 kB]
+
+75% [84 vlc-bin 0 B/53.1 kB 0%]                                                                                                                                                                288 kB/s 37s
+75% [Working]                                                                                                                                                                                  288 kB/s 37s
+                                                                                                                                                                                                           
+Get:85 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-data all 3.0.4-2build1 [338 kB]
+
+75% [85 vlc-data 0 B/338 kB 0%]                                                                                                                                                                288 kB/s 37s
+75% [85 vlc-data 149 kB/338 kB 44%]                                                                                                                                                            288 kB/s 37s
+76% [85 vlc-data 297 kB/338 kB 88%]                                                                                                                                                            288 kB/s 36s
+76% [Working]                                                                                                                                                                                  288 kB/s 36s
+                                                                                                                                                                                                           
+Get:86 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libdc1394-22 amd64 2.2.5-1 [77.5 kB]
+
+76% [86 libdc1394-22 0 B/77.5 kB 0%]                                                                                                                                                           288 kB/s 36s
+76% [Working]                                                                                                                                                                                  288 kB/s 36s
+                                                                                                                                                                                                           
+Get:87 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libdca0 amd64 0.0.6-1 [91.0 kB]
+
+76% [87 libdca0 0 B/91.0 kB 0%]                                                                                                                                                                288 kB/s 36s
+77% [Working]                                                                                                                                                                                  288 kB/s 35s
+                                                                                                                                                                                                           
+Get:88 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libupnp6 amd64 1:1.6.24-4 [122 kB]
+
+77% [88 libupnp6 0 B/122 kB 0%]                                                                                                                                                                288 kB/s 35s
+77% [88 libupnp6 115 kB/122 kB 95%]                                                                                                                                                            288 kB/s 35s
+77% [Working]                                                                                                                                                                                  288 kB/s 35s
+                                                                                                                                                                                                           
+Get:89 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-plugin-base amd64 3.0.4-2build1 [2,793 kB]
+
+77% [89 vlc-plugin-base 0 B/2,793 kB 0%]                                                                                                                                                       288 kB/s 35s
+77% [89 vlc-plugin-base 138 kB/2,793 kB 5%]                                                                                                                                                    264 kB/s 38s
+78% [89 vlc-plugin-base 278 kB/2,793 kB 10%]                                                                                                                                                   264 kB/s 37s
+78% [89 vlc-plugin-base 430 kB/2,793 kB 15%]                                                                                                                                                   264 kB/s 37s
+78% [89 vlc-plugin-base 555 kB/2,793 kB 20%]                                                                                                                                                   264 kB/s 36s
+79% [89 vlc-plugin-base 714 kB/2,793 kB 26%]                                                                                                                                                   264 kB/s 36s
+79% [89 vlc-plugin-base 868 kB/2,793 kB 31%]                                                                                                                                                   264 kB/s 35s
+79% [89 vlc-plugin-base 1,019 kB/2,793 kB 36%]                                                                                                                                                 264 kB/s 34s
+79% [89 vlc-plugin-base 1,171 kB/2,793 kB 42%]                                                                                                                                                 264 kB/s 34s
+80% [89 vlc-plugin-base 1,322 kB/2,793 kB 47%]                                                                                                                                                 264 kB/s 33s
+80% [89 vlc-plugin-base 1,455 kB/2,793 kB 52%]                                                                                                                                                 264 kB/s 33s
+80% [89 vlc-plugin-base 1,605 kB/2,793 kB 57%]                                                                                                                                                 264 kB/s 32s
+81% [89 vlc-plugin-base 1,770 kB/2,793 kB 63%]                                                                                                                                                 264 kB/s 32s
+81% [89 vlc-plugin-base 1,923 kB/2,793 kB 69%]                                                                                                                                                 297 kB/s 27s
+81% [89 vlc-plugin-base 2,053 kB/2,793 kB 74%]                                                                                                                                                 297 kB/s 27s
+82% [89 vlc-plugin-base 2,214 kB/2,793 kB 79%]                                                                                                                                                 297 kB/s 27s
+82% [89 vlc-plugin-base 2,369 kB/2,793 kB 85%]                                                                                                                                                 297 kB/s 26s
+82% [89 vlc-plugin-base 2,524 kB/2,793 kB 90%]                                                                                                                                                 297 kB/s 25s
+83% [89 vlc-plugin-base 2,667 kB/2,793 kB 95%]                                                                                                                                                 297 kB/s 25s
+83% [Working]                                                                                                                                                                                  297 kB/s 25s
+                                                                                                                                                                                                           
+Get:90 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-plugin-qt amd64 3.0.4-2build1 [1,042 kB]
+
+83% [90 vlc-plugin-qt 0 B/1,042 kB 0%]                                                                                                                                                         297 kB/s 25s
+83% [90 vlc-plugin-qt 132 kB/1,042 kB 13%]                                                                                                                                                     297 kB/s 24s
+84% [90 vlc-plugin-qt 278 kB/1,042 kB 27%]                                                                                                                                                     297 kB/s 24s
+84% [90 vlc-plugin-qt 380 kB/1,042 kB 36%]                                                                                                                                                     297 kB/s 23s
+84% [90 vlc-plugin-qt 506 kB/1,042 kB 49%]                                                                                                                                                     297 kB/s 23s
+84% [90 vlc-plugin-qt 608 kB/1,042 kB 58%]                                                                                                                                                     297 kB/s 23s
+85% [90 vlc-plugin-qt 762 kB/1,042 kB 73%]                                                                                                                                                     297 kB/s 22s
+85% [90 vlc-plugin-qt 867 kB/1,042 kB 83%]                                                                                                                                                     271 kB/s 24s
+85% [90 vlc-plugin-qt 1,001 kB/1,042 kB 96%]                                                                                                                                                   271 kB/s 23s
+85% [Working]                                                                                                                                                                                  271 kB/s 23s
+                                                                                                                                                                                                           
+Get:91 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-plugin-video-output amd64 3.0.4-2build1 [160 kB]
+
+85% [91 vlc-plugin-video-output 0 B/160 kB 0%]                                                                                                                                                 271 kB/s 23s
+86% [91 vlc-plugin-video-output 139 kB/160 kB 87%]                                                                                                                                             271 kB/s 23s
+86% [Working]                                                                                                                                                                                  271 kB/s 23s
+                                                                                                                                                                                                           
+Get:92 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc amd64 3.0.4-2build1 [33.7 kB]
+
+86% [92 vlc 0 B/33.7 kB 0%]                                                                                                                                                                    271 kB/s 23s
+86% [Working]                                                                                                                                                                                  271 kB/s 22s
+                                                                                                                                                                                                           
+Get:93 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-l10n all 3.0.4-2build1 [5,638 kB]
+
+86% [93 vlc-l10n 0 B/5,638 kB 0%]                                                                                                                                                              271 kB/s 22s
+86% [93 vlc-l10n 150 kB/5,638 kB 3%]                                                                                                                                                           271 kB/s 22s
+87% [93 vlc-l10n 293 kB/5,638 kB 5%]                                                                                                                                                           271 kB/s 21s
+87% [93 vlc-l10n 448 kB/5,638 kB 8%]                                                                                                                                                           271 kB/s 21s
+87% [93 vlc-l10n 615 kB/5,638 kB 11%]                                                                                                                                                          271 kB/s 20s
+87% [93 vlc-l10n 654 kB/5,638 kB 12%]                                                                                                                                                          271 kB/s 20s
+88% [93 vlc-l10n 811 kB/5,638 kB 14%]                                                                                                                                                          271 kB/s 19s
+88% [93 vlc-l10n 958 kB/5,638 kB 17%]                                                                                                                                                          271 kB/s 19s
+88% [93 vlc-l10n 1,110 kB/5,638 kB 20%]                                                                                                                                                        271 kB/s 18s
+89% [93 vlc-l10n 1,267 kB/5,638 kB 22%]                                                                                                                                                        271 kB/s 18s
+89% [93 vlc-l10n 1,343 kB/5,638 kB 24%]                                                                                                                                                        270 kB/s 18s
+89% [93 vlc-l10n 1,486 kB/5,638 kB 26%]                                                                                                                                                        270 kB/s 17s
+89% [93 vlc-l10n 1,645 kB/5,638 kB 29%]                                                                                                                                                        270 kB/s 16s
+90% [93 vlc-l10n 1,785 kB/5,638 kB 32%]                                                                                                                                                        270 kB/s 16s
+90% [93 vlc-l10n 1,948 kB/5,638 kB 35%]                                                                                                                                                        270 kB/s 15s
+90% [93 vlc-l10n 2,104 kB/5,638 kB 37%]                                                                                                                                                        270 kB/s 15s
+91% [93 vlc-l10n 2,253 kB/5,638 kB 40%]                                                                                                                                                        270 kB/s 14s
+91% [93 vlc-l10n 2,425 kB/5,638 kB 43%]                                                                                                                                                        270 kB/s 13s
+91% [93 vlc-l10n 2,574 kB/5,638 kB 46%]                                                                                                                                                        270 kB/s 13s
+92% [93 vlc-l10n 2,725 kB/5,638 kB 48%]                                                                                                                                                        270 kB/s 12s
+92% [93 vlc-l10n 2,867 kB/5,638 kB 51%]                                                                                                                                                        270 kB/s 12s
+92% [93 vlc-l10n 3,029 kB/5,638 kB 54%]                                                                                                                                                        270 kB/s 11s
+93% [93 vlc-l10n 3,164 kB/5,638 kB 56%]                                                                                                                                                        303 kB/s 10s
+93% [93 vlc-l10n 3,326 kB/5,638 kB 59%]                                                                                                                                                         303 kB/s 9s
+93% [93 vlc-l10n 3,476 kB/5,638 kB 62%]                                                                                                                                                         303 kB/s 9s
+93% [93 vlc-l10n 3,605 kB/5,638 kB 64%]                                                                                                                                                         303 kB/s 8s
+93% [93 vlc-l10n 3,609 kB/5,638 kB 64%]                                                                                                                                                         303 kB/s 8s
+94% [93 vlc-l10n 3,727 kB/5,638 kB 66%]                                                                                                                                                         303 kB/s 8s
+94% [93 vlc-l10n 3,887 kB/5,638 kB 69%]                                                                                                                                                         303 kB/s 7s
+94% [93 vlc-l10n 4,045 kB/5,638 kB 72%]                                                                                                                                                         303 kB/s 7s
+95% [93 vlc-l10n 4,197 kB/5,638 kB 74%]                                                                                                                                                         303 kB/s 6s
+95% [93 vlc-l10n 4,328 kB/5,638 kB 77%]                                                                                                                                                         303 kB/s 6s
+95% [93 vlc-l10n 4,484 kB/5,638 kB 80%]                                                                                                                                                         303 kB/s 5s
+96% [93 vlc-l10n 4,640 kB/5,638 kB 82%]                                                                                                                                                         303 kB/s 5s
+96% [93 vlc-l10n 4,778 kB/5,638 kB 85%]                                                                                                                                                         268 kB/s 5s
+96% [93 vlc-l10n 4,918 kB/5,638 kB 87%]                                                                                                                                                         268 kB/s 4s
+96% [93 vlc-l10n 5,069 kB/5,638 kB 90%]                                                                                                                                                         268 kB/s 4s
+97% [93 vlc-l10n 5,225 kB/5,638 kB 93%]                                                                                                                                                         268 kB/s 3s
+97% [93 vlc-l10n 5,346 kB/5,638 kB 95%]                                                                                                                                                         268 kB/s 3s
+97% [93 vlc-l10n 5,494 kB/5,638 kB 97%]                                                                                                                                                         268 kB/s 2s
+98% [Working]                                                                                                                                                                                   268 kB/s 2s
+                                                                                                                                                                                                           
+Get:94 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-plugin-notify amd64 3.0.4-2build1 [18.3 kB]
+
+98% [94 vlc-plugin-notify 0 B/18.3 kB 0%]                                                                                                                                                       268 kB/s 2s
+98% [Working]                                                                                                                                                                                   268 kB/s 2s
+                                                                                                                                                                                                           
+Get:95 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-plugin-samba amd64 3.0.4-2build1 [18.9 kB]
+
+98% [95 vlc-plugin-samba 0 B/18.9 kB 0%]                                                                                                                                                        268 kB/s 2s
+98% [Working]                                                                                                                                                                                   268 kB/s 1s
+                                                                                                                                                                                                           
+Get:96 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-plugin-skins2 amd64 3.0.4-2build1 [458 kB]
+
+98% [96 vlc-plugin-skins2 0 B/458 kB 0%]                                                                                                                                                        268 kB/s 1s
+99% [96 vlc-plugin-skins2 133 kB/458 kB 29%]                                                                                                                                                    268 kB/s 1s
+99% [96 vlc-plugin-skins2 291 kB/458 kB 64%]                                                                                                                                                    268 kB/s 0s
+99% [96 vlc-plugin-skins2 441 kB/458 kB 96%]                                                                                                                                                    268 kB/s 0s
+99% [Working]                                                                                                                                                                                   268 kB/s 0s
+                                                                                                                                                                                                           
+Get:97 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-plugin-video-splitter amd64 3.0.4-2build1 [32.4 kB]
+
+99% [97 vlc-plugin-video-splitter 0 B/32.4 kB 0%]                                                                                                                                               268 kB/s 0s
+100% [Working]                                                                                                                                                                                  268 kB/s 0s
+                                                                                                                                                                                                           
+Get:98 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 vlc-plugin-visualization amd64 3.0.4-2build1 [37.7 kB]
+
+100% [98 vlc-plugin-visualization 0 B/37.7 kB 0%]                                                                                                                                               268 kB/s 0s
+100% [Working]                                                                                                                                                                                  268 kB/s 0s
+                                                                                                                                                                                                           
+Fetched 39.2 MB in 2min 20s (280 kB/s)
+
+Extracting templates from packages: 30%
+Extracting templates from packages: 61%
+Extracting templates from packages: 91%
+Extracting templates from packages: 100%
+Selecting previously unselected package libdouble-conversion1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 130560 files and directories currently installed.)
+Preparing to unpack .../00-libdouble-conversion1_2.0.1-5_amd64.deb ...
+Unpacking libdouble-conversion1:amd64 (2.0.1-5) ...
+Selecting previously unselected package libqt5core5a:amd64.
+Preparing to unpack .../01-libqt5core5a_5.11.1+dfsg-7ubuntu3_amd64.deb ...
+Unpacking libqt5core5a:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Selecting previously unselected package libqt5dbus5:amd64.
+Preparing to unpack .../02-libqt5dbus5_5.11.1+dfsg-7ubuntu3_amd64.deb ...
+Unpacking libqt5dbus5:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Selecting previously unselected package libqt5network5:amd64.
+Preparing to unpack .../03-libqt5network5_5.11.1+dfsg-7ubuntu3_amd64.deb ...
+Unpacking libqt5network5:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Selecting previously unselected package libxcb-xinerama0:amd64.
+Preparing to unpack .../04-libxcb-xinerama0_1.13.1-1_amd64.deb ...
+Unpacking libxcb-xinerama0:amd64 (1.13.1-1) ...
+Selecting previously unselected package libqt5gui5:amd64.
+Preparing to unpack .../05-libqt5gui5_5.11.1+dfsg-7ubuntu3_amd64.deb ...
+Unpacking libqt5gui5:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Selecting previously unselected package libqt5widgets5:amd64.
+Preparing to unpack .../06-libqt5widgets5_5.11.1+dfsg-7ubuntu3_amd64.deb ...
+Unpacking libqt5widgets5:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Selecting previously unselected package libqt5svg5:amd64.
+Preparing to unpack .../07-libqt5svg5_5.11.1-2_amd64.deb ...
+Unpacking libqt5svg5:amd64 (5.11.1-2) ...
+Selecting previously unselected package liba52-0.7.4:amd64.
+Preparing to unpack .../08-liba52-0.7.4_0.7.4-19_amd64.deb ...
+Unpacking liba52-0.7.4:amd64 (0.7.4-19) ...
+Selecting previously unselected package libaacs0:amd64.
+Preparing to unpack .../09-libaacs0_0.9.0-1_amd64.deb ...
+Unpacking libaacs0:amd64 (0.9.0-1) ...
+Selecting previously unselected package libaom0:amd64.
+Preparing to unpack .../10-libaom0_1.0.0-2_amd64.deb ...
+Unpacking libaom0:amd64 (1.0.0-2) ...
+Selecting previously unselected package libaribb24-0:amd64.
+Preparing to unpack .../11-libaribb24-0_1.0.3-2_amd64.deb ...
+Unpacking libaribb24-0:amd64 (1.0.3-2) ...
+Selecting previously unselected package libass9:amd64.
+Preparing to unpack .../12-libass9_1%3a0.14.0-2_amd64.deb ...
+Unpacking libass9:amd64 (1:0.14.0-2) ...
+Selecting previously unselected package libva2:amd64.
+Preparing to unpack .../13-libva2_2.2.0-1_amd64.deb ...
+Unpacking libva2:amd64 (2.2.0-1) ...
+Selecting previously unselected package libva-drm2:amd64.
+Preparing to unpack .../14-libva-drm2_2.2.0-1_amd64.deb ...
+Unpacking libva-drm2:amd64 (2.2.0-1) ...
+Selecting previously unselected package libva-x11-2:amd64.
+Preparing to unpack .../15-libva-x11-2_2.2.0-1_amd64.deb ...
+Unpacking libva-x11-2:amd64 (2.2.0-1) ...
+Selecting previously unselected package libvdpau1:amd64.
+Preparing to unpack .../16-libvdpau1_1.1.1-8ubuntu1_amd64.deb ...
+Unpacking libvdpau1:amd64 (1.1.1-8ubuntu1) ...
+Selecting previously unselected package libavutil56:amd64.
+Preparing to unpack .../17-libavutil56_7%3a4.0.2-2_amd64.deb ...
+Unpacking libavutil56:amd64 (7:4.0.2-2) ...
+Selecting previously unselected package libcodec2-0.8.1:amd64.
+Preparing to unpack .../18-libcodec2-0.8.1_0.8.1-1_amd64.deb ...
+Unpacking libcodec2-0.8.1:amd64 (0.8.1-1) ...
+Selecting previously unselected package libcrystalhd3:amd64.
+Preparing to unpack .../19-libcrystalhd3_1%3a0.0~git20110715.fdd2f19-13_amd64.deb ...
+Unpacking libcrystalhd3:amd64 (1:0.0~git20110715.fdd2f19-13) ...
+Selecting previously unselected package libgsm1:amd64.
+Preparing to unpack .../20-libgsm1_1.0.13-4build1_amd64.deb ...
+Unpacking libgsm1:amd64 (1.0.13-4build1) ...
+Selecting previously unselected package libopenjp2-7:amd64.
+Preparing to unpack .../21-libopenjp2-7_2.3.0-1_amd64.deb ...
+Unpacking libopenjp2-7:amd64 (2.3.0-1) ...
+Selecting previously unselected package libshine3:amd64.
+Preparing to unpack .../22-libshine3_3.1.1-2_amd64.deb ...
+Unpacking libshine3:amd64 (3.1.1-2) ...
+Selecting previously unselected package libsnappy1v5:amd64.
+Preparing to unpack .../23-libsnappy1v5_1.1.7-1_amd64.deb ...
+Unpacking libsnappy1v5:amd64 (1.1.7-1) ...
+Selecting previously unselected package libswresample3:amd64.
+Preparing to unpack .../24-libswresample3_7%3a4.0.2-2_amd64.deb ...
+Unpacking libswresample3:amd64 (7:4.0.2-2) ...
+Selecting previously unselected package libx264-152:amd64.
+Preparing to unpack .../25-libx264-152_2%3a0.152.2854+gite9a5903-2build1_amd64.deb ...
+Unpacking libx264-152:amd64 (2:0.152.2854+gite9a5903-2build1) ...
+Selecting previously unselected package libx265-160:amd64.
+Preparing to unpack .../26-libx265-160_2.8-4_amd64.deb ...
+Unpacking libx265-160:amd64 (2.8-4) ...
+Selecting previously unselected package libxvidcore4:amd64.
+Preparing to unpack .../27-libxvidcore4_2%3a1.3.5-1_amd64.deb ...
+Unpacking libxvidcore4:amd64 (2:1.3.5-1) ...
+Selecting previously unselected package libzvbi-common.
+Preparing to unpack .../28-libzvbi-common_0.2.35-13_all.deb ...
+Unpacking libzvbi-common (0.2.35-13) ...
+Selecting previously unselected package libzvbi0:amd64.
+Preparing to unpack .../29-libzvbi0_0.2.35-13_amd64.deb ...
+Unpacking libzvbi0:amd64 (0.2.35-13) ...
+Selecting previously unselected package libavcodec58:amd64.
+Preparing to unpack .../30-libavcodec58_7%3a4.0.2-2_amd64.deb ...
+Unpacking libavcodec58:amd64 (7:4.0.2-2) ...
+Selecting previously unselected package libbluray2:amd64.
+Preparing to unpack .../31-libbluray2_1%3a1.0.2-3_amd64.deb ...
+Unpacking libbluray2:amd64 (1:1.0.2-3) ...
+Selecting previously unselected package libchromaprint1:amd64.
+Preparing to unpack .../32-libchromaprint1_1.4.3-2build1_amd64.deb ...
+Unpacking libchromaprint1:amd64 (1.4.3-2build1) ...
+Selecting previously unselected package libgme0:amd64.
+Preparing to unpack .../33-libgme0_0.6.2-1_amd64.deb ...
+Unpacking libgme0:amd64 (0.6.2-1) ...
+Selecting previously unselected package libopenmpt0:amd64.
+Preparing to unpack .../34-libopenmpt0_0.3.11-1_amd64.deb ...
+Unpacking libopenmpt0:amd64 (0.3.11-1) ...
+Selecting previously unselected package libssh-gcrypt-4:amd64.
+Preparing to unpack .../35-libssh-gcrypt-4_0.8.1-1ubuntu0.3_amd64.deb ...
+Unpacking libssh-gcrypt-4:amd64 (0.8.1-1ubuntu0.3) ...
+Selecting previously unselected package libavformat58:amd64.
+Preparing to unpack .../36-libavformat58_7%3a4.0.2-2_amd64.deb ...
+Unpacking libavformat58:amd64 (7:4.0.2-2) ...
+Selecting previously unselected package libbasicusageenvironment1:amd64.
+Preparing to unpack .../37-libbasicusageenvironment1_2018.09.18-1_amd64.deb ...
+Unpacking libbasicusageenvironment1:amd64 (2018.09.18-1) ...
+Selecting previously unselected package libbdplus0:amd64.
+Preparing to unpack .../38-libbdplus0_0.1.2-3_amd64.deb ...
+Unpacking libbdplus0:amd64 (0.1.2-3) ...
+Selecting previously unselected package libcddb2.
+Preparing to unpack .../39-libcddb2_1.3.2-5fakesync1_amd64.deb ...
+Unpacking libcddb2 (1.3.2-5fakesync1) ...
+Selecting previously unselected package libdvbpsi10:amd64.
+Preparing to unpack .../40-libdvbpsi10_1.3.2-1_amd64.deb ...
+Unpacking libdvbpsi10:amd64 (1.3.2-1) ...
+Selecting previously unselected package libdvdread4:amd64.
+Preparing to unpack .../41-libdvdread4_6.0.0-1_amd64.deb ...
+Unpacking libdvdread4:amd64 (6.0.0-1) ...
+Selecting previously unselected package libdvdnav4:amd64.
+Preparing to unpack .../42-libdvdnav4_6.0.0-1_amd64.deb ...
+Unpacking libdvdnav4:amd64 (6.0.0-1) ...
+Selecting previously unselected package libebml4v5:amd64.
+Preparing to unpack .../43-libebml4v5_1.3.6-2_amd64.deb ...
+Unpacking libebml4v5:amd64 (1.3.6-2) ...
+Selecting previously unselected package libfaad2:amd64.
+Preparing to unpack .../44-libfaad2_2.8.8-1_amd64.deb ...
+Unpacking libfaad2:amd64 (2.8.8-1) ...
+Selecting previously unselected package libgroupsock8:amd64.
+Preparing to unpack .../45-libgroupsock8_2018.09.18-1_amd64.deb ...
+Unpacking libgroupsock8:amd64 (2018.09.18-1) ...
+Selecting previously unselected package libkate1:amd64.
+Preparing to unpack .../46-libkate1_0.4.1-8_amd64.deb ...
+Unpacking libkate1:amd64 (0.4.1-8) ...
+Selecting previously unselected package liblivemedia64:amd64.
+Preparing to unpack .../47-liblivemedia64_2018.09.18-1_amd64.deb ...
+Unpacking liblivemedia64:amd64 (2018.09.18-1) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../48-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Selecting previously unselected package libmad0:amd64.
+Preparing to unpack .../49-libmad0_0.15.1b-9ubuntu18.10.1_amd64.deb ...
+Unpacking libmad0:amd64 (0.15.1b-9ubuntu18.10.1) ...
+Selecting previously unselected package libmatroska6v5:amd64.
+Preparing to unpack .../50-libmatroska6v5_1.4.9-1_amd64.deb ...
+Unpacking libmatroska6v5:amd64 (1.4.9-1) ...
+Selecting previously unselected package libmicrodns0:amd64.
+Preparing to unpack .../51-libmicrodns0_0.0.10-1_amd64.deb ...
+Unpacking libmicrodns0:amd64 (0.0.10-1) ...
+Selecting previously unselected package libmpcdec6:amd64.
+Preparing to unpack .../52-libmpcdec6_2%3a0.1~r495-1build1_amd64.deb ...
+Unpacking libmpcdec6:amd64 (2:0.1~r495-1build1) ...
+Selecting previously unselected package libmpeg2-4:amd64.
+Preparing to unpack .../53-libmpeg2-4_0.5.1-8_amd64.deb ...
+Unpacking libmpeg2-4:amd64 (0.5.1-8) ...
+Selecting previously unselected package libmysofa0:amd64.
+Preparing to unpack .../54-libmysofa0_0.6~dfsg0-2_amd64.deb ...
+Unpacking libmysofa0:amd64 (0.6~dfsg0-2) ...
+Selecting previously unselected package libnfs11:amd64.
+Preparing to unpack .../55-libnfs11_2.0.0-1~exp1_amd64.deb ...
+Unpacking libnfs11:amd64 (2.0.0-1~exp1) ...
+Selecting previously unselected package libopenmpt-modplug1:amd64.
+Preparing to unpack .../56-libopenmpt-modplug1_0.3.11-1_amd64.deb ...
+Unpacking libopenmpt-modplug1:amd64 (0.3.11-1) ...
+Selecting previously unselected package libvulkan1:amd64.
+Preparing to unpack .../57-libvulkan1_1.1.82.0-0ubuntu1_amd64.deb ...
+Unpacking libvulkan1:amd64 (1.1.82.0-0ubuntu1) ...
+Selecting previously unselected package libplacebo5:amd64.
+Preparing to unpack .../58-libplacebo5_0.5.0-2_amd64.deb ...
+Unpacking libplacebo5:amd64 (0.5.0-2) ...
+Selecting previously unselected package libpostproc55:amd64.
+Preparing to unpack .../59-libpostproc55_7%3a4.0.2-2_amd64.deb ...
+Unpacking libpostproc55:amd64 (7:4.0.2-2) ...
+Selecting previously unselected package libprotobuf-lite10:amd64.
+Preparing to unpack .../60-libprotobuf-lite10_3.0.0-9.1ubuntu3_amd64.deb ...
+Unpacking libprotobuf-lite10:amd64 (3.0.0-9.1ubuntu3) ...
+Selecting previously unselected package libproxy-tools.
+Preparing to unpack .../61-libproxy-tools_0.4.15-2_amd64.deb ...
+Unpacking libproxy-tools (0.4.15-2) ...
+Selecting previously unselected package libqt5x11extras5:amd64.
+Preparing to unpack .../62-libqt5x11extras5_5.11.1-2_amd64.deb ...
+Unpacking libqt5x11extras5:amd64 (5.11.1-2) ...
+Selecting previously unselected package libresid-builder0c2a.
+Preparing to unpack .../63-libresid-builder0c2a_2.1.1-15ubuntu1_amd64.deb ...
+Unpacking libresid-builder0c2a (2.1.1-15ubuntu1) ...
+Selecting previously unselected package libsdl1.2debian:amd64.
+Preparing to unpack .../64-libsdl1.2debian_1.2.15+dfsg2-2_amd64.deb ...
+Unpacking libsdl1.2debian:amd64 (1.2.15+dfsg2-2) ...
+Selecting previously unselected package libsdl-image1.2:amd64.
+Preparing to unpack .../65-libsdl-image1.2_1.2.12-8_amd64.deb ...
+Unpacking libsdl-image1.2:amd64 (1.2.12-8) ...
+Selecting previously unselected package libsidplay2.
+Preparing to unpack .../66-libsidplay2_2.1.1-15ubuntu1_amd64.deb ...
+Unpacking libsidplay2 (2.1.1-15ubuntu1) ...
+Selecting previously unselected package libsndio7.0:amd64.
+Preparing to unpack .../67-libsndio7.0_1.5.0-2_amd64.deb ...
+Unpacking libsndio7.0:amd64 (1.5.0-2) ...
+Selecting previously unselected package libspatialaudio0:amd64.
+Preparing to unpack .../68-libspatialaudio0_0.3.0+git20180730+dfsg1-1_amd64.deb ...
+Unpacking libspatialaudio0:amd64 (0.3.0+git20180730+dfsg1-1) ...
+Selecting previously unselected package libssh2-1:amd64.
+Preparing to unpack .../69-libssh2-1_1.8.0-2_amd64.deb ...
+Unpacking libssh2-1:amd64 (1.8.0-2) ...
+Selecting previously unselected package libswscale5:amd64.
+Preparing to unpack .../70-libswscale5_7%3a4.0.2-2_amd64.deb ...
+Unpacking libswscale5:amd64 (7:4.0.2-2) ...
+Selecting previously unselected package libusageenvironment3:amd64.
+Preparing to unpack .../71-libusageenvironment3_2018.09.18-1_amd64.deb ...
+Unpacking libusageenvironment3:amd64 (2018.09.18-1) ...
+Selecting previously unselected package libva-wayland2:amd64.
+Preparing to unpack .../72-libva-wayland2_2.2.0-1_amd64.deb ...
+Unpacking libva-wayland2:amd64 (2.2.0-1) ...
+Selecting previously unselected package libvlccore9:amd64.
+Preparing to unpack .../73-libvlccore9_3.0.4-2build1_amd64.deb ...
+Unpacking libvlccore9:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package libvlc5:amd64.
+Preparing to unpack .../74-libvlc5_3.0.4-2build1_amd64.deb ...
+Unpacking libvlc5:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package libvlc-bin:amd64.
+Preparing to unpack .../75-libvlc-bin_3.0.4-2build1_amd64.deb ...
+Unpacking libvlc-bin:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package mesa-va-drivers:amd64.
+Preparing to unpack .../76-mesa-va-drivers_18.2.8-0ubuntu0~18.10.2_amd64.deb ...
+Unpacking mesa-va-drivers:amd64 (18.2.8-0ubuntu0~18.10.2) ...
+Selecting previously unselected package mesa-vdpau-drivers:amd64.
+Preparing to unpack .../77-mesa-vdpau-drivers_18.2.8-0ubuntu0~18.10.2_amd64.deb ...
+Unpacking mesa-vdpau-drivers:amd64 (18.2.8-0ubuntu0~18.10.2) ...
+Selecting previously unselected package qt5-gtk-platformtheme:amd64.
+Preparing to unpack .../78-qt5-gtk-platformtheme_5.11.1+dfsg-7ubuntu3_amd64.deb ...
+Unpacking qt5-gtk-platformtheme:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Selecting previously unselected package qttranslations5-l10n.
+Preparing to unpack .../79-qttranslations5-l10n_5.11.1-2_all.deb ...
+Unpacking qttranslations5-l10n (5.11.1-2) ...
+Selecting previously unselected package i965-va-driver:amd64.
+Preparing to unpack .../80-i965-va-driver_2.2.0-0ubuntu1_amd64.deb ...
+Unpacking i965-va-driver:amd64 (2.2.0-0ubuntu1) ...
+Selecting previously unselected package va-driver-all:amd64.
+Preparing to unpack .../81-va-driver-all_2.2.0-1_amd64.deb ...
+Unpacking va-driver-all:amd64 (2.2.0-1) ...
+Selecting previously unselected package vdpau-driver-all:amd64.
+Preparing to unpack .../82-vdpau-driver-all_1.1.1-8ubuntu1_amd64.deb ...
+Unpacking vdpau-driver-all:amd64 (1.1.1-8ubuntu1) ...
+Selecting previously unselected package vlc-bin.
+Preparing to unpack .../83-vlc-bin_3.0.4-2build1_amd64.deb ...
+Unpacking vlc-bin (3.0.4-2build1) ...
+Selecting previously unselected package vlc-data.
+Preparing to unpack .../84-vlc-data_3.0.4-2build1_all.deb ...
+Unpacking vlc-data (3.0.4-2build1) ...
+Selecting previously unselected package libdc1394-22:amd64.
+Preparing to unpack .../85-libdc1394-22_2.2.5-1_amd64.deb ...
+Unpacking libdc1394-22:amd64 (2.2.5-1) ...
+Selecting previously unselected package libdca0:amd64.
+Preparing to unpack .../86-libdca0_0.0.6-1_amd64.deb ...
+Unpacking libdca0:amd64 (0.0.6-1) ...
+Selecting previously unselected package libupnp6:amd64.
+Preparing to unpack .../87-libupnp6_1%3a1.6.24-4_amd64.deb ...
+Unpacking libupnp6:amd64 (1:1.6.24-4) ...
+Selecting previously unselected package vlc-plugin-base:amd64.
+Preparing to unpack .../88-vlc-plugin-base_3.0.4-2build1_amd64.deb ...
+Unpacking vlc-plugin-base:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package vlc-plugin-qt:amd64.
+Preparing to unpack .../89-vlc-plugin-qt_3.0.4-2build1_amd64.deb ...
+Unpacking vlc-plugin-qt:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package vlc-plugin-video-output:amd64.
+Preparing to unpack .../90-vlc-plugin-video-output_3.0.4-2build1_amd64.deb ...
+Unpacking vlc-plugin-video-output:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package vlc.
+Preparing to unpack .../91-vlc_3.0.4-2build1_amd64.deb ...
+Unpacking vlc (3.0.4-2build1) ...
+Selecting previously unselected package vlc-l10n.
+Preparing to unpack .../92-vlc-l10n_3.0.4-2build1_all.deb ...
+Unpacking vlc-l10n (3.0.4-2build1) ...
+Selecting previously unselected package vlc-plugin-notify:amd64.
+Preparing to unpack .../93-vlc-plugin-notify_3.0.4-2build1_amd64.deb ...
+Unpacking vlc-plugin-notify:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package vlc-plugin-samba:amd64.
+Preparing to unpack .../94-vlc-plugin-samba_3.0.4-2build1_amd64.deb ...
+Unpacking vlc-plugin-samba:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package vlc-plugin-skins2:amd64.
+Preparing to unpack .../95-vlc-plugin-skins2_3.0.4-2build1_amd64.deb ...
+Unpacking vlc-plugin-skins2:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package vlc-plugin-video-splitter:amd64.
+Preparing to unpack .../96-vlc-plugin-video-splitter_3.0.4-2build1_amd64.deb ...
+Unpacking vlc-plugin-video-splitter:amd64 (3.0.4-2build1) ...
+Selecting previously unselected package vlc-plugin-visualization:amd64.
+Preparing to unpack .../97-vlc-plugin-visualization_3.0.4-2build1_amd64.deb ...
+Unpacking vlc-plugin-visualization:amd64 (3.0.4-2build1) ...
+Setting up libvulkan1:amd64 (1.1.82.0-0ubuntu1) ...
+Setting up libxcb-xinerama0:amd64 (1.13.1-1) ...
+Setting up libmpeg2-4:amd64 (0.5.1-8) ...
+Setting up libx264-152:amd64 (2:0.152.2854+gite9a5903-2build1) ...
+Setting up libusageenvironment3:amd64 (2018.09.18-1) ...
+Setting up libopenjp2-7:amd64 (2.3.0-1) ...
+Setting up libdouble-conversion1:amd64 (2.0.1-5) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-3ubuntu2) ...
+Setting up vlc-data (3.0.4-2build1) ...
+Setting up libdvbpsi10:amd64 (1.3.2-1) ...
+Setting up libopenmpt0:amd64 (0.3.11-1) ...
+Setting up libmpcdec6:amd64 (2:0.1~r495-1build1) ...
+Setting up libaribb24-0:amd64 (1.0.3-2) ...
+Setting up libbasicusageenvironment1:amd64 (2018.09.18-1) ...
+Setting up libaacs0:amd64 (0.9.0-1) ...
+Setting up libproxy-tools (0.4.15-2) ...
+Setting up libmicrodns0:amd64 (0.0.10-1) ...
+Setting up libssh-gcrypt-4:amd64 (0.8.1-1ubuntu0.3) ...
+Setting up libebml4v5:amd64 (1.3.6-2) ...
+Setting up libass9:amd64 (1:0.14.0-2) ...
+Setting up libfaad2:amd64 (2.8.8-1) ...
+Setting up libkate1:amd64 (0.4.1-8) ...
+Setting up libbluray2:amd64 (1:1.0.2-3) ...
+Setting up libvdpau1:amd64 (1.1.1-8ubuntu1) ...
+Setting up libsdl1.2debian:amd64 (1.2.15+dfsg2-2) ...
+Setting up libdc1394-22:amd64 (2.2.5-1) ...
+Setting up libshine3:amd64 (3.1.1-2) ...
+Setting up libva2:amd64 (2.2.0-1) ...
+Setting up libplacebo5:amd64 (0.5.0-2) ...
+Setting up liblivemedia64:amd64 (2018.09.18-1) ...
+Setting up libxvidcore4:amd64 (2:1.3.5-1) ...
+Setting up vlc-l10n (3.0.4-2build1) ...
+Setting up libnfs11:amd64 (2.0.0-1~exp1) ...
+Setting up libx265-160:amd64 (2.8-4) ...
+Setting up i965-va-driver:amd64 (2.2.0-0ubuntu1) ...
+Setting up liba52-0.7.4:amd64 (0.7.4-19) ...
+Setting up libssh2-1:amd64 (1.8.0-2) ...
+Setting up libcrystalhd3:amd64 (1:0.0~git20110715.fdd2f19-13) ...
+Processing triggers for libc-bin (2.28-0ubuntu1) ...
+Setting up libcodec2-0.8.1:amd64 (0.8.1-1) ...
+Setting up libupnp6:amd64 (1:1.6.24-4) ...
+Setting up libvlccore9:amd64 (3.0.4-2build1) ...
+Setting up libsnappy1v5:amd64 (1.1.7-1) ...
+Setting up vlc-plugin-video-splitter:amd64 (3.0.4-2build1) ...
+Setting up qttranslations5-l10n (5.11.1-2) ...
+Setting up mesa-va-drivers:amd64 (18.2.8-0ubuntu0~18.10.2) ...
+Setting up libcddb2 (1.3.2-5fakesync1) ...
+Setting up libva-drm2:amd64 (2.2.0-1) ...
+Setting up libsndio7.0:amd64 (1.5.0-2) ...
+Setting up libgroupsock8:amd64 (2018.09.18-1) ...
+Setting up libzvbi-common (0.2.35-13) ...
+Processing triggers for man-db (2.8.4-2) ...
+Setting up vlc-plugin-visualization:amd64 (3.0.4-2build1) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu2) ...
+Setting up libsdl-image1.2:amd64 (1.2.12-8) ...
+Setting up libaom0:amd64 (1.0.0-2) ...
+Setting up libgme0:amd64 (0.6.2-1) ...
+Setting up libbdplus0:amd64 (0.1.2-3) ...
+Setting up libmad0:amd64 (0.15.1b-9ubuntu18.10.1) ...
+Setting up vlc-plugin-notify:amd64 (3.0.4-2build1) ...
+Setting up libresid-builder0c2a (2.1.1-15ubuntu1) ...
+Setting up libzvbi0:amd64 (0.2.35-13) ...
+Setting up libsidplay2 (2.1.1-15ubuntu1) ...
+Setting up libva-x11-2:amd64 (2.2.0-1) ...
+Setting up libdca0:amd64 (0.0.6-1) ...
+Setting up libprotobuf-lite10:amd64 (3.0.0-9.1ubuntu3) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Setting up libopenmpt-modplug1:amd64 (0.3.11-1) ...
+Setting up libgsm1:amd64 (1.0.13-4build1) ...
+Setting up libmysofa0:amd64 (0.6~dfsg0-2) ...
+Setting up libdvdread4:amd64 (6.0.0-1) ...
+Setting up libqt5core5a:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Setting up libqt5dbus5:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Setting up libmatroska6v5:amd64 (1.4.9-1) ...
+Setting up libvlc5:amd64 (3.0.4-2build1) ...
+Setting up libqt5network5:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Setting up libspatialaudio0:amd64 (0.3.0+git20180730+dfsg1-1) ...
+Setting up vlc-plugin-samba:amd64 (3.0.4-2build1) ...
+Setting up libdvdnav4:amd64 (6.0.0-1) ...
+Setting up libavutil56:amd64 (7:4.0.2-2) ...
+Setting up mesa-vdpau-drivers:amd64 (18.2.8-0ubuntu0~18.10.2) ...
+Setting up libva-wayland2:amd64 (2.2.0-1) ...
+Setting up libpostproc55:amd64 (7:4.0.2-2) ...
+Setting up libvlc-bin:amd64 (3.0.4-2build1) ...
+Setting up libqt5gui5:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Setting up va-driver-all:amd64 (2.2.0-1) ...
+Setting up qt5-gtk-platformtheme:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Setting up libswscale5:amd64 (7:4.0.2-2) ...
+Setting up vlc-bin (3.0.4-2build1) ...
+Setting up vdpau-driver-all:amd64 (1.1.1-8ubuntu1) ...
+Setting up libqt5x11extras5:amd64 (5.11.1-2) ...
+Setting up libqt5widgets5:amd64 (5.11.1+dfsg-7ubuntu3) ...
+Setting up libswresample3:amd64 (7:4.0.2-2) ...
+Setting up libqt5svg5:amd64 (5.11.1-2) ...
+Setting up libavcodec58:amd64 (7:4.0.2-2) ...
+Setting up libchromaprint1:amd64 (1.4.3-2build1) ...
+Setting up libavformat58:amd64 (7:4.0.2-2) ...
+Setting up vlc-plugin-qt:amd64 (3.0.4-2build1) ...
+Setting up vlc-plugin-video-output:amd64 (3.0.4-2build1) ...
+Setting up vlc-plugin-skins2:amd64 (3.0.4-2build1) ...
+Setting up vlc-plugin-base:amd64 (3.0.4-2build1) ...
+Setting up vlc (3.0.4-2build1) ...
+Processing triggers for libc-bin (2.28-0ubuntu1) ...
+Processing triggers for libvlc-bin:amd64 (3.0.4-2build1) ...
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ dpkg -s vlc
+Package: vlc
+Status: install ok installed
+Priority: optional
+Section: video
+Installed-Size: 219
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 3.0.4-2build1
+Provides: mp3-decoder
+Depends: vlc-bin (= 3.0.4-2build1), vlc-plugin-base (= 3.0.4-2build1), vlc-plugin-qt (= 3.0.4-2build1), vlc-plugin-video-output (= 3.0.4-2build1)
+Recommends: vlc-l10n (= 3.0.4-2build1), vlc-plugin-notify (= 3.0.4-2build1), vlc-plugin-samba (= 3.0.4-2build1), vlc-plugin-skins2 (= 3.0.4-2build1), vlc-plugin-video-splitter (= 3.0.4-2build1), vlc-plugin-visualization (= 3.0.4-2build1)
+Description: multimedia player and streamer
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ VLC can also be used as a streaming server that duplicates the stream it
+ reads and multicasts them through the network to other clients, or serves
+ them through HTTP.
+ .
+ VLC has support for on-the-fly transcoding of audio and video formats, either
+ for broadcasting purposes or for movie format transformations. Support for
+ most output methods is provided by this package, but features can be added by
+ installing additional plugins:
+  * vlc-plugin-access-extra
+  * vlc-plugin-fluidsynth
+  * vlc-plugin-jack
+  * vlc-plugin-notify
+  * vlc-plugin-samba
+  * vlc-plugin-skins2
+  * vlc-plugin-svg
+  * vlc-plugin-video-splitter
+  * vlc-plugin-visualization
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Homepage: https://www.videolan.org/vlc/
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt -reconfigure vlc
+E: Command line option 'r' [from -reconfigure] is not understood in combination with the other options.
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt-get remove vlc
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
+  libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5 libmicrodns0
+  libmpcdec6 libmpeg2-4 libmysofa0 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo5 libpostproc55 libprotobuf-lite10 libproxy-tools libqt5x11extras5 libresid-builder0c2a libsdl-image1.2
+  libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsndio7.0 libspatialaudio0 libssh-gcrypt-4 libssh2-1 libswresample3 libswscale5 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2
+  libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-160 libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin
+  vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  vlc
+0 upgraded, 0 newly installed, 1 to remove and 366 not upgraded.
+After this operation, 224 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 132263 files and directories currently installed.)
+Removing vlc (3.0.4-2build1) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-3ubuntu2) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu2) ...
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ sudo apt purge vlc
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+Package 'vlc' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
+  libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1 libkate1 liblivemedia64 liblua5.2-0 libmad0 libmatroska6v5 libmicrodns0
+  libmpcdec6 libmpeg2-4 libmysofa0 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0 libplacebo5 libpostproc55 libprotobuf-lite10 libproxy-tools libqt5x11extras5 libresid-builder0c2a libsdl-image1.2
+  libsdl1.2debian libshine3 libsidplay2 libsnappy1v5 libsndio7.0 libspatialaudio0 libssh-gcrypt-4 libssh2-1 libswresample3 libswscale5 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2
+  libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-160 libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin
+  vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 366 not upgraded.
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ scr[K[K[Kexit
+exit
+
+Script done on 2019-05-06 11:06:22+05:30
