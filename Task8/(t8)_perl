@@ -1,9 +1,34 @@
 Script started on 2019-05-06 11:14:19+05:30
-]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ exitsudo apt purge vlc[5@-get remov[C[C[C[C[C[2@ -reconfigur[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pdpkg -s[C[C[C[C[13@sudo apt-get install[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt install perl
+]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ exitsudo apt purge vlc[5@-get remov[C[C[C[C[C[2@ -reconfigur[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pdpkg -s[C[C[C[C[13@sudo apt-get install[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt install perl
 [sudo] password for roshin: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 99%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 99%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 perl is already the newest version (5.26.2-7ubuntu0.1).
 The following packages were automatically installed and are no longer required:
   i965-va-driver liba52-0.7.4 libaacs0 libaom0 libaribb24-0 libass9 libavcodec58 libavformat58 libavutil56 libbasicusageenvironment1 libbdplus0 libbluray2 libcddb2 libchromaprint1 libcodec2-0.8.1
@@ -19,7 +44,8 @@ use strict;
 use warnings;
 print "Hello";
 ]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ perl hello.pl
-Hello]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ [K]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ cat sum.pl
+Hello]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ 
+[K]0;roshin@roshin: ~[01;32mroshin@roshin[00m:[01;34m~[00m$ cat sum.pl
 use strict;
 use warnings;
 print "Enter the two numbers";
