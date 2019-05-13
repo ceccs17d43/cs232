@@ -1,3 +1,5 @@
+#!usr/bin/env bash
+
 use strict;
 use warnings;
 print "Enter first value\n";
