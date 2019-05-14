@@ -1,3 +1,5 @@
+#!usr/bin/env bash
+
 sudo apt-get install vsftpd
 sudo nano /etc/vsftpd.conf
 sudo systemctl restart vsftpd
