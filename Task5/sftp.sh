@@ -1,3 +1,5 @@
+#!usr/bin/env bash
+
 sftp cs17d35@14.139.189.217
 ls
 mkdir task
