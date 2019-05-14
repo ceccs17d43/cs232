@@ -1,3 +1,6 @@
+#!usr/bin/env bash
+
+
 ls
 ls -lk
 ls -1
